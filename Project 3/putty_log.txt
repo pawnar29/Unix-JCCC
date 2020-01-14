@@ -1,0 +1,138 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.21 18:11:15 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Wed Sep 21 18:09:50 2016 from rc38009.student.directory.jccc
+[npawarve@ats-cis ~]$ bin/req 3 1
+
+-----------------
+Wed Sep 21 18:11:33 CDT 2016
+/home/students/npawarve
+R03_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep 'enumeration' constitution.txt 
+and until such enumeration shall be made, the State of New Hampshire
+[npawarve@ats-cis ~]$ /binbin/req 3 2
+
+-----------------
+Wed Sep 21 18:11:58 CDT 2016
+/home/students/npawarve
+R03_002_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep '^To' constitution.txt 
+To borrow Money on the credit of the United States;
+To regulate Commerce with foreign Nations, and among the several States,
+To establish an uniform Rule of Naturalization, and uniform Laws
+To coin Money, regulate the Value thereof, and of foreign Coin,
+To provide for the Punishment of counterfeiting the Securities
+To establish Post Offices and Post Roads;
+To promote the Progress of Science and useful Arts, by securing
+To constitute Tribunals inferior to the supreme Court;
+To define and punish Piracies and Felonies committed on the high Seas,
+To declare War, grant Letters of Marque and Reprisal,
+To raise and support Armies, but no Appropriation of Money to that Use
+To provide and maintain a Navy;
+To make Rules for the Government and Regulation of the land and naval Forces;
+To provide for calling forth the Militia to execute the Laws of the Union,
+To provide for organizing, arming, and disciplining, the Militia, and for
+To exercise exclusive Legislation in all Cases whatsoever,
+To make all Laws which shall be necessary and proper for carrying
+Tonnage, keep Troops, or Ships of War in time of Peace, enter into any
+[npawarve@ats-cis ~]$ bin/req 3 3
+
+-----------------
+Wed Sep 21 18:12:44 CDT 2016
+/home/students/npawarve
+R03_003_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep '.oo.' constitution.txt 
+The Senate shall choose their other Officers, and also a President
+Tonnage, keep Troops, or Ships of War in time of Peace, enter into any
+and inferior Courts, shall hold their Offices during good behavior,
+but no Attainder of Treason shall work Corruption of Blood,
+Jaco: Broom
+[npawarve@ats-cis ~]$ bin/req 3 4
+
+-----------------
+Wed Sep 21 18:20:11 CDT 2016
+/home/students/npawarve
+R03_004_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep 'America\.' constitution.txt 
+United States of America.
+of the United States of America.  He shall hold his Office during
+[npawarve@ats-cis ~]$ bin/req 3 5
+
+-----------------
+Wed Sep 21 18:20:16 CDT 2016
+/home/students/npawarve
+R03_005_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep '\<[PpTt].\{2,3\}son\>' constitution.txt
+No Person shall be a Representative who shall not have attained to the
+No person shall be a Senator who shall not have attained to the Age of
+shall preside: And no Person shall be convicted without the Concurrence
+of the United States.  They shall in all Cases, except Treason, Felony and
+increased during such time; and no Person holding any Office under the
+not exceeding ten dollars for each Person.
+and no Person holding any Office of Profit or Trust under them, shall,
+Representative, or Person holding an Office of Trust or Profit under
+The Person having the greatest Number of Votes shall be the President,
+chuse by Ballot one of them for President; and if no Person have
+of the President, the Person having the greatest Number of Votes of
+No Person except a natural born Citizen, or a Citizen of the United States,
+the Office of President; neither shall any Person be eligible to that
+and Conviction of, Treason, Bribery, or other high Crimes and Misdemeanors.
+Section 3.  Treason against the United States, shall consist only in
+Aid and Comfort.  No Person shall be convicted of Treason unless on
+The Congress shall have power to declare the punishment of Treason,
+But no Attainder of Treason shall work Corruption of Blood,
+or Forfeiture except during the Life of the Person attainted.
+A Person charged in any State with Treason, Felony, or other Crime,
+No person held to Service or Labor in one State, under the Laws thereof,
+[npawarve@ats-cis ~]$ bin/req 3 6
+
+-----------------
+Wed Sep 21 18:22:05 CDT 2016
+/home/students/npawarve
+R03_006_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep '.*,.*,.*,.*,.*' constitution.txt 
+New Jersey four, Pennsylvania eight, Delaware one, Maryland six,
+To provide for organizing, arming, and disciplining, the Militia, and for
+for the Erection of Forts, Magazines, Arsenals, Dockyards,
+or from, one State, be obliged to enter, clear, or pay Duties in another.
+Office, or Title, of any kind whatever, from any King, Prince,
+and shall, at stated Times, receive for their Services, a Compensation,
+[npawarve@ats-cis ~]$ bin/req 3 67
+
+-----------------
+Wed Sep 21 18:41:11 CDT 2016
+/home/students/npawarve
+R03_007_790047
+-----------------
+
+[npawarve@ats-cis ~]$ grep '^[oO].*c\{2\}' constitution.txt 
+of the Officers, and the Authority of training the militia according
+of Appropriations made by Law; and a regular Statement and Account
+Officer shall then act as President, and such Officer shall act accordingly,
+[npawarve@ats-cis ~]$ vim constitution.txt 
+[npawarve@ats-cis ~]$ bin/req 3 8
+
+-----------------
+Wed Sep 21 18:46:47 CDT 2016
+/home/students/npawarve
+R03_008_790047
+-----------------
+
+
+[npawarve@ats-cis ~]$ [npawarve@ats-cis ~]$ grep '^B.*,$' constitution3_8.txt 
+[npawarve@ats-cis ~]$
+[npawarve@ats-cis ~]$ exit
+logout

@@ -1,0 +1,6 @@
+2016-10-18 20:04:40 - Trash moved p6_tmp/file_1 to /home/students/npawarve/trash/file_1
+2016-10-18 20:04:58 - Trash moved p6_tmp/file_2 to /home/students/npawarve/trash/file_2
+2016-10-18 20:05:01 - Trash renamed p6_tmp/file_1 to /home/students/npawarve/trash/file_1_bak
+2016-10-18 20:05:14 - Trash renamed p6_tmp/file_2 to /home/students/npawarve/trash/file_2_bak
+2016-10-18 20:05:14 - Trash moved p6_tmp/file_2 to /home/students/npawarve/trash/file_2
+2016-10-18 20:05:22 - Trash of p6_tmp/file_5 does not exist

@@ -1,0 +1,25 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.10.18 18:44:19 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Oct 18 18:39:35 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ bin/req 5 6
+
+-----------------
+Tue Oct 18 18:46:56 CDT 2016
+/home/students/npawarve
+R05_006_790047
+-----------------
+
+[npawarve@ats-cis ~]$ touch ~/p6_tmp/file_1 ~/p6_tmp/file_2
+[npawarve@ats-cis ~]$ ~/Lab5/p5_s1.sh ~/p6_tmp/file_1
+[npawarve@ats-cis ~]$ ~/Lab5/p5_s1.sh ~/p6_tmp/file_2
+[npawarve@ats-cis ~]$ touch ~/p6_tmp/file_2 ~/p6_tmp/file_3
+[npawarve@ats-cis ~]$ ~/Lab5/p5_s1.sh ~/p6_tmp/file_2
+[npawarve@ats-cis ~]$ ~/Lab5/p5_s1.sh ~/p6_tmp/file_5
+[npawarve@ats-cis ~]$ ls ~/p6_tmp/
+file_3
+[npawarve@ats-cis ~]$ ls ~/trash/
+file_1_bak  file_2  file_2_bak
+[npawarve@ats-cis ~]$ exit
+logout

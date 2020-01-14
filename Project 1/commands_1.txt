@@ -1,0 +1,41 @@
+Chmod - Chmod modifies the permissions of a file or a folder. They are modefied by either using a octagonal, mode based (symbolic or absolute) and this gives certain permissions to users, groups and everyone else.
+
+Chown - Chown modifies the owners or groups that are able to access the data. This command combines with the chmod command to give permissions to users, groups and everyone else. But this is manly used as the first step.
+
+Head - Head defaultly prints the first 10 lines of a file. This makes it specifally oriented to previewing the file. There are switches for head that can have you see however many lines as you want in the file.
+
+Less - This program is simular to the command more and like cat that it displays the data within a file, but in less, you can scroll up and down. This program works well with pipes that it can take inputs and makes it easily viewable.
+
+Ls - This program displays the contents of a folder and it can work with different switches that are to show the owners and the permissions of the files/folders it contains.
+
+More - This program is simular to what cat can do but displays less information at once. But this program is different from the less command because this program can only scroll down and not up. This can be benefitial that it does have many more switches that can be used  but in my own reccomendation, I rather do less.
+
+Mv -  Mv is a program this is used to move files around, from one place to another. This is especially useful for disk management and for organization.
+
+Rmdir - This command is for deleting/removing a file from the data point. This program is defaulted to only delete empty folders but the rm command can remove both files and folders.
+
+Rm - This command is to remove or delete files and or folders in the system. Defaultly,you cannot delete folders but if you add the switch of -R, it will remove everything in the folder and remove the folder.
+
+Wc - acrynam for Word Count, this returns the amount of bytes, words, number of lines etc. that the file(s) contain. Most tasks are mainly accomplished by using switches and that returns it's corrisponding values.
+
+Summery of what liked:
+
+Chmod - one favorite is the -v verbose logging and it displays the steps that the program does. The other is -R to recursively change the file permissions of the current folder and contents.
+
+Chown - my favorite options are -c where it is verbose logging but it returns a report of what files the owners have changed. My other is the -R which recursively changes the owner on the current folder and all of it'c contents.
+
+Head - A favorite of mine is -n []  where it displays only the amount of lines specified as the parameter. My other one is -v where it displays the header with the file name. 
+
+Less - One of my favorites is the -f option where it forces the file that you wanted to open and display it's contents. My other one is -N where it displays the line number as you are looking at the contents of the file.
+
+Ls - A admirable option that is used a lot is the -a option that displays all the files in the folder. This makes every single file visible, even the folder settings. My other on is -R, where it displays the contents of the folder and if the folder has folders, it displays them as well.
+
+More - The options that I like are the -p option that displays everything page by page, where you cannot scroll up or down, but only by pages. The other one is the -s where it takes away multiple blank lines into one blank and that saves a lot of space on the screen.
+
+Mv - One of the options that I like to use is the -f where it doesn't prompt when files overwrite each other. The other one is the -v where it displays what is being moved or overwritten etc.
+
+Rmdir - A favorite of mine is the -p where it removes the selected directory and contents of the folder. The other is the -v where it show what had been deleted and when using -p, shows all the other folder that are deleted.
+
+Rm - one of my favorite options is -R where it deletes teh folder and all of the contents, and my other one is -f to not prompt for every single removal of any directory or file.
+
+Wc - A good option is the -l where it displays on how many lines the file contains. The other one it -w where it return on how many words there are in the file.

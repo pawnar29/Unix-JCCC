@@ -1,0 +1,843 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.13 20:42:00 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Sep 13 20:41:20 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ [npawarve@ats-cis ~]$ /binbin/req 2 1
+
+-----------------
+Tue Sep 13 20:42:45 CDT 2016
+/home/students/npawarve
+R02_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/p*
+/home/faculty/clocke1/project_3/paper     /home/faculty/clocke1/project_3/pillows
+/home/faculty/clocke1/project_3/pegs      /home/faculty/clocke1/project_3/placemats
+/home/faculty/clocke1/project_3/pencils   /home/faculty/clocke1/project_3/plants
+/home/faculty/clocke1/project_3/pens      /home/faculty/clocke1/project_3/plates
+/home/faculty/clocke1/project_3/pictures
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/p*s*s
+/home/faculty/clocke1/project_3/saucepans  /home/faculty/clocke1/project_3/shoes
+/home/faculty/clocke1/project_3/scales     /home/faculty/clocke1/project_3/sponges
+/home/faculty/clocke1/project_3/sheets     /home/faculty/clocke1/project_3/spoons
+/home/faculty/clocke1/project_3/shelves
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/s*sp???
+/home/faculty/clocke1/project_3/pegs  /home/faculty/clocke1/project_3/pens
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/p???[]p]b]*
+/home/faculty/clocke1/project_3/books   /home/faculty/clocke1/project_3/pencils
+/home/faculty/clocke1/project_3/bowl    /home/faculty/clocke1/project_3/pens
+/home/faculty/clocke1/project_3/boxes   /home/faculty/clocke1/project_3/pictures
+/home/faculty/clocke1/project_3/broom   /home/faculty/clocke1/project_3/pillows
+/home/faculty/clocke1/project_3/bucket  /home/faculty/clocke1/project_3/placemats
+/home/faculty/clocke1/project_3/paper   /home/faculty/clocke1/project_3/plants
+/home/faculty/clocke1/project_3/pegs    /home/faculty/clocke1/project_3/plates
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/[pb]*????
+/home/faculty/clocke1/project_3/books  /home/faculty/clocke1/project_3/broom
+/home/faculty/clocke1/project_3/boxes  /home/faculty/clocke1/project_3/paper
+[npawarve@ats-cis ~]$ wget http://www.gutenberg.org/ebooks/5.txt.utf-8 -O constitution. dos
+--2016-09-13 20:45:20--  http://www.gutenberg.org/ebooks/5.txt.utf-8
+Resolving www.gutenberg.org (www.gutenberg.org)... 152.19.134.47, 2610:28:3090:3000:0:bad:cafe:47
+Connecting to www.gutenberg.org (www.gutenberg.org)|152.19.134.47|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.gutenberg.org/cache/epub/5/pg5.txt [following]
+--2016-09-13 20:45:20--  http://www.gutenberg.org/cache/epub/5/pg5.txt
+Reusing existing connection to www.gutenberg.org:80.
+HTTP request sent, awaiting response... 307 Temporary Redirect
+Location: http://www.gutenberg.org/w/captcha/question/ [following]
+--2016-09-13 20:45:20--  http://www.gutenberg.org/w/captcha/question/
+Reusing existing connection to www.gutenberg.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9527 (9.3K) [text/html]
+Saving to: constitution.dos
+
+ 0% [                                              ] 0           --.-K/s              100%[=============================================>] 9,527       --.-K/s   in 0s      
+
+2016-09-13 20:45:20 (35.3 MB/s) - constitution.dos saved [9527/9527]
+
+[npawarve@ats-cis ~]$ tr -d ''\'0'1'5' <>c>o>n>s>titution.>d>os> >|> >'>'>{'>}'>i}'>f}'>(}'>)}'>N)}'>R)}'>=)}'>=)}'>1)}'>s}'>u}'>b}'>(}'>)}'>/)}'>^)}'>\)}'>x)}'>e)}'>f)}'>\)}'>e)}'>)}'>x)}'>b)}'>b)}'>\)}'>x)}'>b)}'> f)}'>>/)}'>,)}'>")}'>")}'>;}'>p}'>r}'>i}'>n}'>t}'> >constitution.txt 
+-bash: {if(NR==1)sub(/^\xef\xbb\xbf/,"");print}: No such file or directory
+[npawarve@ats-cis ~]$ tr -d '\015' <constitution.dos | '{if(NR==1)sub(/^\xef\xbb\xbf/,""");print}' >constitution.txt a'{if(NR==1)sub(/^\xef\xbb\xbf/,""w'{if(NR==1)sub(/^\xef\xbb\xbf/,"k'{if(NR==1)sub(/^\xef\xbb\xbf/, '{if(NR==1)sub(/^\xef\xbb\xbf/
+
+[npawarve@ats-cis ~]$ vim constitution.txt =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.16 09:55:28 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+Access denied
+npawarve@ats-cis.jccc.edu's password: 
+Last failed login: Fri Sep 16 09:55:28 CDT 2016 from 99-121-106-151.lightspeed.mssnks.sbcglobal.net on ssh:notty
+There was 1 failed login attempt since the last successful login.
+No mail.
+Last login: Tue Sep 13 20:42:04 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ vim constitution.txt 
+  "constitution.txt" 286L, 9528C<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUpp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<style type="text/css">
+.icon   { background: transparent url(/pics/sprite.png?1472155906) 0 0 no-repeatt; }
+</style>
+<link rel="stylesheet" type="text/css" href="/css/pg-desktop-one.css?1472155906"" />
+<script type="text/javascript">//<![CDATA[
+var json_search     = "/ebooks/suggest/";
+var mobile_url      = "//m.gutenberg.org/w/captcha/question/?format=mobile";
+var canonical_url   = "http://www.gutenberg.org/w/captcha/question/";
+var lang            = "en_US";
+var fb_lang         = "en_US"; /* FB accepts only xx_XX */
+var msg_load_more   = "Load More Results";
+var page_mode       = "screen";
+var dialog_title    = "";
+var dialog_message  = "";
+//]]></script>1,1Top:zzZZ 1,1Top[npawarve@ats-cis ~]$ Zvim constitution.txt tr -d '\015' <constitution.dos | awk '{if(NR==1)sub(/^\xef\\xbb\xbf/,"");print}' >constitution.txt '{if(NR==1)sub(/^\xef\xbb\awk '{if(NR==1)sub(/^\xef\b\xb'{if(NR==1)sub(/^\xef\xbb\wget http://www.gutenberg.org/ebooks/5.txt.utf-8 -O constitution.dos constitution.dosO constitution.dos
+
+--2016-09-16 10:02:40--  http://www.gutenberg.org/ebooks/5.txt.utf-8
+Resolving www.gutenberg.org (www.gutenberg.org)... 152.19.134.47, 2610:28:3090:3000:0:bad:cafe:47
+Connecting to www.gutenberg.org (www.gutenberg.org)|152.19.134.47|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.gutenberg.org/cache/epub/5/pg5.txt [following]
+--2016-09-16 10:02:40--  http://www.gutenberg.org/cache/epub/5/pg5.txt
+Reusing existing connection to www.gutenberg.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43608 (43K) [text/plain]
+Saving to: constitution.dos
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 43,608      --.-K/s   in 0.08s   
+
+2016-09-16 10:02:40 (523 KB/s) - constitution.dos saved [43608/43608]
+
+[npawarve@ats-cis ~]$ less constitution.dos 
+<U+FEFF>The Project Gutenberg EBook of The United States' Constitution
+by  Founding Fathers
+
+Copyright laws are changing all over the world. Be sure to check the
+copyright laws for your country before downloading or redistributing
+this or any other Project Gutenberg eBook.
+
+This header should be the first thing seen when viewing this Project
+Gutenberg file.  Please do not remove it.  Do not change or edit the
+header without written permission.
+
+Please read the "legal small print," and other information about the
+eBook and Project Gutenberg at the bottom of this file.  Included is
+important information about your specific rights and restrictions in
+how the file may be used.  You can also find out about how to make a
+donation to Project Gutenberg, and how to get involved.
+
+
+**Welcome To The World of Free Plain Vanilla Electronic Texts**
+
+**eBooks Readable By Both Humans and By Computers, Since 1971**
+
+*****These eBooks Were Prepared By Thousands of Volunteers!*****
+constitution.dos ESCESCOOAA: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBBTitle: The United States' Constitution
+: ESCESCOOBB
+: ESCESCOOBBAuthor:  Founding Fathers
+: ESCESCOOBB
+: ESCESCOOBBRelease Date: December, 1975  [EBook #5]
+: ESCESCOOBB[This file was first posted on August 19, 2003]
+: ESCESCOOBB[Previous update: April 14, 2006]
+: ESCESCOOBB[Last updated: April 1, 2015]
+: ESCESCOOBB
+: ESCESCOOBBEdition: 11
+: ESCESCOOBB
+: ESCESCOOBBLanguage: English
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB*** START OF THE PROJECT GUTENBERG EBOOK, THE UNITED STATES' CONSTITUTION ***
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBBAll of the original Project Gutenberg Etexts from the
+: ESCESCOOBB1970's were produced in ALL CAPS, no lower case.  The
+: ESCESCOOBBcomputers we used then didn't have lower case at all.
+: ESCESCOOBB
+: ESCESCOOBB***
+: ESCESCOOBB
+: ESCESCOOBBThese original Project Gutenberg Etexts will be compiled into a file
+: ESCESCOOBBcontaining them all, in order to improve the content ratios of Etext
+: ESCESCOOBBto header material.
+: ESCESCOOBB
+: ESCESCOOBB***
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBBThe following edition of The Consitution of the United States of America
+: ESCESCOOBBhas been based on many hours of study of a variety of editions, and will
+: ESCESCOOBBinclude certain variant spellings, punctuation, and captialization as we
+: ESCESCOOBBhave been able to reasonable ascertain belonged to the orginal.  In case
+: ESCESCOOBBof internal discrepancies in these matters, most or all have been left.
+: ESCESCOOBB
+: ESCESCOOBBIn our orginal editions the letters were all CAPITALS, and we did not do
+: ESCESCOOBBanything about capitalization, consistent or otherwise, nor with most of
+: ESCESCOOBBthe punctuation, since we had limited punctionation in those days.
+: ESCESCOOBB
+: ESCESCOOBBThis document does NOT include the amendments, as the Bill of Rights was
+: ESCESCOOBBone of our earlier Project Gutenberg Etexts, and the others will be sent
+: ESCESCOOBBin a separate posting.
+: ESCESCOOBB
+: ESCESCOOBB***
+: ESCESCOOBB
+: ESCESCOOBBWe would ask that any Consitutional scholars would please take a minute,
+: ESCESCOOBBor longer, to send us a note concerning possible corrections.
+: ESCESCOOBB
+: ESCESCOOBB***
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBBTHE CONSTITUTION OF THE UNITED STATES OF AMERICA, 1787
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBB
+: ESCESCOOBBWe the people of the United States, in Order to form a more perfect Union,
+: ESCESCOOBBestablish Justice, insure domestic Tranquility, provide for the common defence,
+: ESCESCOOBBpromote the general Welfare, and secure the Blessings of Liberty to ourselves
+:[npawarve@ats-cis ~]$ less constitution.dos wget http://www.gutenberg.org/ebooks/5.txt.utf-8 -O constittution.dosvim constitution.txt 
+tr -d '\015' <constitution.dos | awk '{if(NR==1)sub(/^\xef\\xbb\xbf/,"");print}' >constitution.txt 
+[npawarve@ats-cis ~]$ vim constitution.txt 
+  "constitution.txt" 995L, 42610CThe Project Gutenberg EBook of The United States' Constitution
+by  Founding Fathers
+
+Copyright laws are changing all over the world. Be sure to check the
+copyright laws for your country before downloading or redistributing
+this or any other Project Gutenberg eBook.
+
+This header should be the first thing seen when viewing this Project
+Gutenberg file.  Please do not remove it.  Do not change or edit the
+header without written permission.
+
+Please read the "legal small print," and other information about the
+eBook and Project Gutenberg at the bottom of this file.  Included is
+important information about your specific rights and restrictions in
+how the file may be used.  You can also find out about how to make a
+donation to Project Gutenberg, and how to get involved.
+
+
+**Welcome To The World of Free Plain Vanilla Electronic Texts**
+
+**eBooks Readable By Both Humans and By Computers, Since 1971**
+
+*****These eBooks Were Prepared By Thousands of Volunteers!*****1,1Top-- VISUAL --1,1TopThe Project Gutenberg EBook of The United States' Constitution 2by  Founding Fathers 3,0-1 4,1  Copyright laws are changing all over the world. Be sure to check the 5copyright laws for your country before downloading or redistributing 6this or any other Project Gutenberg eBook. 7,0-1 8,1  This header should be the first thing seen when viewing this Project 9Gutenberg file.  Please do not remove it.  Do not change or edit the 10,1header without written permission. 1,0-1 2,1  Please read the "legal small print," and other information about the 3eBook and Project Gutenberg at the bottom of this file.  Included is 4important information about your specific rights and restrictions in 5how the file may be used.  You can also find out about how to make a 6donation to Project Gutenberg, and how to get involved. 7,0-1 8 9,1  **Welcome To The World of Free Plain Vanilla Electronic Texts** 20,0-1 1,1  **eBooks Readable By Both Humans and By Computers, Since 1971** 2,0-1 3,1  
+*****These eBooks Were Prepared By Thousands of Volunteers!***** 24,0-10%
+ 25,0-10%
+ 
+Title: The United States' Constitution26,10%
+Title: The United States' Constitution 27,0-10%
+ 
+Author:  Founding Fathers28,10%
+Author:  Founding Fathers 9,0-1
+ 
+Release Date: December, 1975  [EBook #5]30,10%
+Release Date: December, 1975  [EBook #5] 
+[This file was first posted on August 19, 2003]31,10%
+[This file was first posted on August 19, 2003] 
+[Previous update: April 14, 2006]32,10%
+[Previous update: April 14, 2006] 
+[Last updated: April 1, 2015]33,11%
+[Last updated: April 1, 2015] 34,0-11%
+ 
+Edition: 1135,11%
+Edition: 11 36,0-11%
+ 
+Language: English37,11%
+Language: English 38,0-11%
+ 39,0-11%
+ 
+*** START OF THE PROJECT GUTENBERG EBOOK, THE UNITED STATES' CONSTITUTION ***40,11%
+*** START OF THE PROJECT GUTENBERG EBOOK, THE UNITED STATES' CONSTITUTION *** 41,0-11%
+ 42,0-11%
+ 43,0-12%
+ 44,0-12%
+ 
+All of the original Project Gutenberg Etexts from the45,12%
+All of the original Project Gutenberg Etexts from the 
+1970's were produced in ALL CAPS, no lower case.  The46,12%
+1970's were produced in ALL CAPS, no lower case.  The 
+computers we used then didn't have lower case at all.47,12%
+computers we used then didn't have lower case at all. 48,0-12%
+ 
+***49,12%
+*** 50,0-12%
+ 
+These original Project Gutenberg Etexts will be compiled into a file51,12%
+These original Project Gutenberg Etexts will be compiled into a file 
+containing them all, in order to improve the content ratios of Etext52,12%
+containing them all, in order to improve the content ratios of Etext 
+to header material.53,13%
+to header material. 54,0-13%
+ 
+***55,13%
+*** 56,0-13%
+ 57,0-13%
+ 58,0-13%
+ 
+The following edition of The Consitution of the United States of America59,13%
+The following edition of The Consitution of the United States of America 
+has been based on many hours of study of a variety of editions, and will60,13%
+has been based on many hours of study of a variety of editions, and will 
+include certain variant spellings, punctuation, and captialization as we61,13%
+include certain variant spellings, punctuation, and captialization as we 
+have been able to reasonable ascertain belonged to the orginal.  In case62,14%
+have been able to reasonable ascertain belonged to the orginal.  In case 
+of internal discrepancies in these matters, most or all have been left.63,14%
+of internal discrepancies in these matters, most or all have been left. 64,0-14%
+ 
+In our orginal editions the letters were all CAPITALS, and we did not do65,14%
+In our orginal editions the letters were all CAPITALS, and we did not do 
+anything about capitalization, consistent or otherwise, nor with most of66,14%
+anything about capitalization, consistent or otherwise, nor with most of 
+the punctuation, since we had limited punctionation in those days.67,14%
+the punctuation, since we had limited punctionation in those days. 68,0-14%
+ 
+This document does NOT include the amendments, as the Bill of Rights was69,14%
+This document does NOT include the amendments, as the Bill of Rights was 
+one of our earlier Project Gutenberg Etexts, and the others will be sent70,14%
+one of our earlier Project Gutenberg Etexts, and the others will be sent 
+in a separate posting.71,14%
+in a separate posting. 72,0-15%
+ 
+***73,15%
+*** 74,0-15%
+ 
+We would ask that any Consitutional scholars would please take a minute,75,15%
+We would ask that any Consitutional scholars would please take a minute, 
+or longer, to send us a note concerning possible corrections.76,15%
+or longer, to send us a note concerning possible corrections. 77,0-15%
+ 
+***78,15%
+*** 79,0-15%
+ 80,0-15%
+ 81,0-15%
+ 82,0-16%
+ 
+THE CONSTITUTION OF THE UNITED STATES OF AMERICA, 178783,16%
+THE CONSTITUTION OF THE UNITED STATES OF AMERICA, 1787 84,0-16%
+ 85,0-16%
+ 86,0-16%
+ 
+We the people of the United States, in Order to form a more perfect Union,87,16%
+We the people of the United States, in Order to form a more perfect Union, 
+establish Justice, insure domestic Tranquility, provide for the common defence,88,16%
+establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves89,16%
+promote the general Welfare, and secure the Blessings of Liberty to ourselves 
+and our Posterity, do ordain and establish this Constitution for the90,16%
+and our Posterity, do ordain and establish this Constitution for the 
+United States of America.1
+United States of America. 2,0-17
+ 93,0-17%
+ 
+Article 194,17%
+Article 1 95,0-17%
+ 
+Section 1.  All legislative Powers herein granted shall be vested in a96,17%
+Section 1.  All legislative Powers herein granted shall be vested in a 
+Congress of the United States, which shall consist of a Senate and97,17%Section 1.  All legislative Powers herein granted shall be vested in a65,0-1Article 14,1  3,0-12United States of America.1,1  recording91,17%-- VISUAL --91,17%and our Posterity, do ordain and establish this Constitution for the0promote the general Welfare, and secure the Blessings of Liberty to ourselves89establish Justice, insure domestic Tranquility, provide for the common defence,8We the people of the United States, in Order to form a more perfect Union,76,0-154THE CONSTITUTION OF THE UNITED STATES OF AMERICA, 17873,1  2,0-1181 fewer linesHouse of Representatives.
+
+Section 2.  The House of Representatives shall be composed of Members
+chosen every second Year by the People of the several States,
+and the electors in each State shall have the qualifications requisite
+for electors of the most numerous branch of the State legislature.1,0-1Top81 fewer lines1,0-1Top2,1  3,0-1456,1  78910,11,0-123,1  4,0-15,1  678,0-19,1  20123,0-1
+No Person shall be a Representative who shall not have attained to the24,10%
+Age of twenty five Years, and been seven Years a citizen of the United States,25,10%
+and who shall not, when elected, be an Inhabitant of that State in which26,10%
+he shall be chosen.27,10%
+28,0-10%
+Representatives and direct Taxes shall be apportioned among29,10%
+the several States which may be included within this Union,30,10%
+according to their respective Numbers, which shall be determined31,10%
+by adding to the whole number of free Persons, including those32,11%
+bound to Service for a Term of Years, and excluding Indians not taxed,33,11%
+three fifths of all other Persons.  The actual Enumeration shall be made34,11%
+within three Years after the first Meeting of the Congress of the35,11%
+United States, and within every subsequent Term of ten Years,36,11%
+in such Manner as they shall by law Direct.  The number of37,11%
+Representatives shall not exceed one for every thirty Thousand,38,11%
+but each State shall have at least one Representative;39,11%
+and until such enumeration shall be made, the State of New Hampshire40,11%
+shall be entitled to chuse three, Massachusetts eight, Rhode Island41,12%
+and Providence Plantations one, Connecticut five, New York six,42,12%
+New Jersey four, Pennsylvania eight, Delaware one, Maryland six,43,12%
+Virginia ten, North Carolina five, South Carolina five, and Georgia three.44,12%
+45,0-12%
+When vacancies happen in the Representation from any State, the Executive46,12%
+Authority thereof shall issue Writs of Election to fill such Vacancies.47,12%
+48,0-12%
+The House of Representatives shall chuse their Speaker and other Officers;49,12%
+and shall have the sole Power of Impeachment.50,13%
+51,0-13%
+Section 3.  The Senate of the United States shall be composed of52,13%
+two Senators from each State, chosen by the legislature thereof,53,13%
+for six Years; and each Senator shall have one Vote.54,13%
+55,0-13%
+Immediately after they shall be assembled in Consequence of the first Election,56,13%
+they shall be divided as equally as may be into three Classes.  The Seats of57,13%
+the Senators of the first Class shall be vacated at the expiration of the58,13%
+second Year, of the second Class at the expiration of the fourth Year,59,14%
+and of the third Class at the expiration of the sixth Year, so that one third60,14%
+may be chosen every second Year; and if vacancies happen by Resignation,61,14%
+or otherwise, during the recess of the Legislature of any State,62,14%
+the Executive thereof may make temporary Appointments until the63,14%
+next meeting of the Legislature, which shall then fill such Vacancies.64,14%
+65,0-14%
+No person shall be a Senator who shall not have attained to the Age of66,14%
+thirty Years, and been nine Years a Citizen of the United States,67,14%
+and who shall not, when elected, be an Inhabitant of that State68,15%
+for which he shall be chosen.69,15%
+70,0-15%
+The Vice-President of the United States shall be President of the Senate,71,15%
+but shall have no Vote, unless they be equally divided.72,15%
+73,0-15%
+The Senate shall choose their other Officers, and also a President74,15%
+pro tempore, in the Absence of the Vice-President, or when he shall75,15%
+exercise the Office of President of the United States.76,15%
+77,0-16%
+The Senate shall have the sole Power to try all Impeachments.78,16%
+When sitting for that Purpose, they shall be on Oath or Affirmation.79,16%
+When the President of the United States is tried, the Chief Justice80,16%
+shall preside: And no Person shall be convicted without the Concurrence81,16%
+of two thirds of the Members present.82,16%
+83,0-16%
+Judgment in cases of Impeachment shall not extend further than to removal84,16%
+from Office, and disqualification to hold and enjoy any Office of honor,85,16%
+Trust or Profit under the United States:  but the Party convicted shall86,17%
+nevertheless be liable and subject to Indictment, Trial, Judgment and87,17%
+Punishment, according to Law.88,17%
+89,0-17%
+Section 4.  The Times, Places and Manner of holding Elections for Senators and90,17%
+Representatives, shall be prescribed in each State by the Legislature thereof;91,17%
+but the Congress may at any time by Law make or alter such Regulations,92,17%THE CONSTITUTION OF THE UNITED STATES OF AMERICA, 1787We the people of the United States, in Order to form a more perfect Union,
+establish Justice, insure domestic Tranquility, provide for the common defence,
+promote the general Welfare, and secure the Blessings of Liberty to ourselves
+and our Posterity, do ordain and establish this Constitution for the
+United States of America.
+
+
+Article 1
+
+Section 1.  All legislative Powers herein granted shall be vested in a
+Congress of the United States, which shall consist of a Senate and
+House of Representatives.
+
+Section 2.  The House of Representatives shall be composed of Members
+chosen every second Year by the People of the several States,
+and the electors in each State shall have the qualifications requisite
+for electors of the most numerous branch of the State legislature.1,0-1TopWHAT IF YOU *WANT* TO SEND MONEY EVEN IF YOU DON'T HAVE TO?
+Project Gutenberg is dedicated to increasing the number of
+public domain and licensed works that can be freely distributed
+in machine readable form.
+
+The Project gratefully accepts contributions of money, time,
+public domain materials, or royalty free copyright licenses.
+Money should be paid to the:
+"Project Gutenberg Literary Archive Foundation."
+
+If you are interested in contributing scanning equipment or
+software or other items, please contact Michael Hart at:
+hart@pobox.com
+
+[Portions of this eBook's header and trailer may be reprinted only
+when distributed free of all fees.  Copyright (C) 2001, 2002 by
+Michael S. Hart.  Project Gutenberg is a TradeMark and may not be
+used in any sales of Project Gutenberg eBooks or other materials be
+they hardware or software or any other related product without
+express permission.]
+
+*END THE SMALL PRINT! FOR PUBLIC DOMAIN EBOOKS*Ver.02/11/02*END*914,1Bot3,0-12,1  10098[]7[]6,0-15,1  432,0-13,1  456,0-1
+[]7,1  []8910123,0-14,1  234567891012345678920123456789301234567894012345678950123456789601234
+-- VISUAL --914,64Bot*END THE SMALL PRINT! FOR PUBLIC DOMAIN EBOOKS*Ver.02/11/02*END*3,0-1 2,21 express permission.] 1,63 be 
+they hardware or software or any other related product without 0,64e 
+used in any sales of Project Gutenberg eBooks or other materials09Michael S. Hart.  Project Gutenberg is a TradeMark and may not b8ly 
+when distributed free of all fees.  Copyright (C) 2001, 2002 by 7[Portions of this eBook's header and trailer may be reprinted on6,0-1 5,15 hart@pobox.com 4,57software or other items, please contact Michael Hart at: 3,60If you are interested in contributing scanning equipment or 2,0-1 1,49 "Project Gutenberg Literary Archive Foundation." 0,2Money should be paid to the: 899,61public domain materials, or royalty free copyright licenses. 8The Project gratefully accepts contributions of money, time, 7,0-1 6,26 in machine readable form. 5,64public domain and licensed works that can be freely distributed 4,59Project Gutenberg is dedicated to increasing the number of 3,60WHAT IF YOU *WANT* TO SEND MONEY EVEN IF YOU DON'T HAVE TO? 2,0-1let us know your plans and to work out the details.
+ 891,5799%periodic) tax return.  Please contact us beforehand to
+     let us know your plans and to work out the details. 890,6099%legally required to prepare) your annual (or equivalent
+     periodic) tax return.  Please contact us beforehand to 889,6199%the 60 days following each date you prepare (or were
+     legally required to prepare) your annual (or equivalent 888,5899%payable to "Project Gutenberg Literary Archive Foundation"
+     the 60 days following each date you prepare (or were 887,6499%don't derive profits, no royalty is due.  Royalties are
+     payable to "Project Gutenberg Literary Archive Foundation" 886,6199%already use to calculate your applicable taxes.  If you
+     don't derive profits, no royalty is due.  Royalties are 885,6199%gross profits you derive calculated using the method you
+     already use to calculate your applicable taxes.  If you 884,6299%[3]  Pay a trademark license fee to the Foundation of 20% of the 
+     gross profits you derive calculated using the method you 883,6498%[3]  Pay a trademark license fee to the Foundation of 20% of the882,0-198%"Small Print!" statement.
+ 881,3198%[2]  Honor the eBook refund and replacement provisions of this
+     "Small Print!" statement. 880,6398%[2]  Honor the eBook refund and replacement provisions of this 879,0-198%or other equivalent proprietary form).
+ 878,4998%eBook in its original plain ASCII form (or in EBCDIC
+          or other equivalent proprietary form). 877,6398%no additional cost, fee or expense, a copy of the
+          eBook in its original plain ASCII form (or in EBCDIC 876,6098%[*]  You provide, or agree to also provide on request at
+          no additional cost, fee or expense, a copy of the 875,6298%     [*]  You provide, or agree to also provide on request at 874,0-197%OR
+ 873,1397%the case, for instance, with most word processors);
+          OR 872,6297%form by the program that displays the eBook (as is
+          the case, for instance, with most word processors); 871,6197%no expense into plain ASCII, EBCDIC or equivalent
+          form by the program that displays the eBook (as is 870,6097%[*]  The eBook may be readily converted by the reader at
+          no expense into plain ASCII, EBCDIC or equivalent 869,6297%     [*]  The eBook may be readily converted by the reader at 868,0-197%indicate hypertext links; OR
+ 867,3997%author, and additional characters may be used to
+          indicate hypertext links; OR 866,5997%be used to convey punctuation intended by the
+          author, and additional characters may be used to 865,5696%(~), asterisk (*) and underline (_) characters may
+          be used to convey punctuation intended by the 864,6196%intended by the author of the work, although tilde
+          (~), asterisk (*) and underline (_) characters may 863,6196%does *not* contain characters other than those
+          intended by the author of the work, although tilde 862,5796%[*]  The eBook, when displayed, is clearly readable, and
+          does *not* contain characters other than those 861,6296%     [*]  The eBook, when displayed, is clearly readable, and 860,0-196%*EITHER*:
+ 859,1596%processing or hypertext software, but only so long as
+     *EITHER*: 858,5996%including any form resulting from conversion by word
+     processing or hypertext software, but only so long as 857,5896%binary, compressed, mark-up, or proprietary form,
+     including any form resulting from conversion by word 856,5595%if you wish, distribute this eBook in machine readable
+     binary, compressed, mark-up, or proprietary form, 855,6095%eBook or this "small print!" statement.  You may however,
+     if you wish, distribute this eBook in machine readable 854,6395%requires that you do not remove, alter or modify the
+     eBook or this "small print!" statement.  You may however, 853,5895%[1]  Only give exact copies of it.  Among other things, this
+     requires that you do not remove, alter or modify the 852,6195%[1]  Only give exact copies of it.  Among other things, this 851,0-195%or:
+ 850,495%"Small Print!" and all other references to Project Gutenberg,
+or: 849,6295%disk, book or any other medium if you either delete this
+"Small Print!" and all other references to Project Gutenberg, 848,5795%You may distribute copies of this eBook electronically, or by
+disk, book or any other medium if you either delete this 847,6294%DISTRIBUTION UNDER "PROJECT GUTENBERG-tm"
+You may distribute copies of this eBook electronically, or by 846,4294%DISTRIBUTION UNDER "PROJECT GUTENBERG-tm" 845,0-194%or [3] any Defect.
+ 844,1994%[2] alteration, modification, or addition to the eBook,
+or [3] any Defect. 843,5694%following that you do or cause:  [1] distribution of this eBook, 
+[2] alteration, modification, or addition to the eBook, 842,6494%legal fees, that arise directly or indirectly from any of the
+following that you do or cause:  [1] distribution of this eBook,841,6294%texts harmless, from all liability, cost and expense, including
+legal fees, that arise directly or indirectly from any of the 840,6494%with the production and distribution of Project Gutenberg-tm
+texts harmless, from all liability, cost and expense, including 839,6194%and its trustees and agents, and any volunteers associated
+with the production and distribution of Project Gutenberg-tm 838,5993%You will indemnify and hold Michael Hart, the Foundation,
+and its trustees and agents, and any volunteers associated 837,5893%INDEMNITY
+You will indemnify and hold Michael Hart, the Foundation, 836,1093%INDEMNITY 835,0-193%may have other legal rights.
+ 834,2993%above disclaimers and exclusions may not apply to you, and you
+may have other legal rights. 833,6393%the exclusion or limitation of consequential damages, so the
+above disclaimers and exclusions may not apply to you, and you 832,6193%Some states do not allow disclaimers of implied warranties or
+the exclusion or limitation of consequential damages, so the 831,6293%Some states do not allow disclaimers of implied warranties or 830,0-193%PARTICULAR PURPOSE.
+ 829,2092%LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+PARTICULAR PURPOSE. 828,5892%TO THE EBOOK OR ANY MEDIUM IT MAY BE ON, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A 827,5992%WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ARE MADE TO YOU AS
+TO THE EBOOK OR ANY MEDIUM IT MAY BE ON, INCLUDING BUT NOT 826,6392%THIS EBOOK IS OTHERWISE PROVIDED TO YOU "AS-IS". NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ARE MADE TO YOU AS 5,58THIS EBOOK IS OTHERWISE PROVIDED TO YOU "AS-IS". NO OTHER 824,0-192%receive it electronically.
+ 823,2792%choose to alternatively give you a second opportunity to
+receive it electronically. 822,5792%copy. If you received it electronically, such person may
+choose to alternatively give you a second opportunity to 821,5792%such person may choose to alternatively give you a replacement
+copy. If you received it electronically, such person may 820,6391%on a physical medium, you must return it with your note, and
+such person may choose to alternatively give you a replacement 819,6191%time to the person you received it from. If you received it
+on a physical medium, you must return it with your note, and 818,6091%you paid for it by sending an explanatory note within that
+time to the person you received it from. If you received it 817,5991%receiving it, you can receive a refund of the money (if any)
+you paid for it by sending an explanatory note within that 816,6191%If you discover a Defect in this eBook within 90 days of
+receiving it, you can receive a refund of the money (if any) 815,5791%If you discover a Defect in this eBook within 90 days of 814,0-191%POSSIBILITY OF SUCH DAMAGES.
+ 813,2991%OR INCIDENTAL DAMAGES, EVEN IF YOU GIVE NOTICE OF THE
+POSSIBILITY OF SUCH DAMAGES. 812,5491%INCLUDING BUT NOT LIMITED TO INDIRECT, CONSEQUENTIAL, PUNITIVE
+OR INCIDENTAL DAMAGES, EVEN IF YOU GIVE NOTICE OF THE 811,6390%UNDER STRICT LIABILITY, OR FOR BREACH OF WARRANTY OR CONTRACT,
+INCLUDING BUT NOT LIMITED TO INDIRECT, CONSEQUENTIAL, PUNITIVE 810,6390%legal fees, and [2] YOU HAVE NO REMEDIES FOR NEGLIGENCE OR
+UNDER STRICT LIABILITY, OR FOR BREACH OF WARRANTY OR CONTRACT, 809,5990%all liability to you for damages, costs and expenses, including
+legal fees, and [2] YOU HAVE NO REMEDIES FOR NEGLIGENCE OR 808,6490%receive this eBook from as a PROJECT GUTENBERG-tm eBook) disclaims 
+all liability to you for damages, costs and expenses, including 807,6490%[1] Michael Hart and the Foundation (and any other party you may 
+receive this eBook from as a PROJECT GUTENBERG-tm eBook) disclai806,6490%But for the "Right of Replacement or Refund" described below,
+[1] Michael Hart and the Foundation (and any other party you may805,6290%LIMITED WARRANTY; DISCLAIMER OF DAMAGES
+But for the "Right of Replacement or Refund" described below, 804,4090%LIMITED WARRANTY; DISCLAIMER OF DAMAGES 803,0-190%codes that damage or cannot be read by your equipment.
+ 802,5589%disk or other eBook medium, a computer virus, or computer
+codes that damage or cannot be read by your equipment. 801,5889%intellectual property infringement, a defective or damaged
+disk or other eBook medium, a computer virus, or computer 800,5989%corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged 799,5789%things, Defects may take the form of incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other 798,6389%medium they may be on may contain "Defects". Among other
+things, Defects may take the form of incomplete, inaccurate or 797,5789%works. Despite these efforts, the Project's eBooks and any
+medium they may be on may contain "Defects". Among other 796,5989%efforts to identify, transcribe and proofread public domain
+works. Despite these efforts, the Project's eBooks and any 795,6089%To create these eBooks, the Project expends considerable
+efforts to identify, transcribe and proofread public domain 794,5789%To create these eBooks, the Project expends considerable 793,0-188%any commercial products without permission.
+ 792,4488%Please do not use the "PROJECT GUTENBERG" trademark to market
+any commercial products without permission. 791,6288%Please do not use the "PROJECT GUTENBERG" trademark to market 790,0-188%under the "PROJECT GUTENBERG" trademark.
+ 789,4188%below, apply if you wish to copy and distribute this eBook
+under the "PROJECT GUTENBERG" trademark. 788,5988%without paying copyright royalties. Special rules, set forth
+below, apply if you wish to copy and distribute this eBook 787,6188%distribute it in the United States without permission and
+without paying copyright royalties. Special rules, set forth 786,5888%on or for this work, so the Project (and you!) can copy and
+distribute it in the United States without permission and 785,6087%Among other things, this means that no one owns a United States copyright 
+on or for this work, so the Project (and you!) can copy and 784,6487%through the Project Gutenberg Association (the "Project").
+Among other things, this means that no one owns a United States 783,5987%is a "public domain" work distributed by Professor Michael S. Hart 
+through the Project Gutenberg Association (the "Project"). 782,6487%This PROJECT GUTENBERG-tm eBook, like most PROJECT GUTENBERG-tm eBooks, 
+is a "public domain" work distributed by Professor Michael S. Ha781,6487%ABOUT PROJECT GUTENBERG-TM EBOOKS
+This PROJECT GUTENBERG-tm eBook, like most PROJECT GUTENBERG-tm 780,3487%ABOUT PROJECT GUTENBERG-TM EBOOKS 779,0-187%medium (such as a disk), you must return it with your request.
+ 778,6387%you got it from. If you received this eBook on a physical
+medium (such as a disk), you must return it with your request. 777,5887%sending a request within 30 days of receiving it to the person
+you got it from. If you received this eBook on a physical 776,6386%a refund of the money (if any) you paid for this eBook by
+sending a request within 30 days of receiving it to the person 775,5886%this "Small Print!" statement. If you do not, you can receive
+a refund of the money (if any) you paid for this eBook by 774,6286%eBook, you indicate that you understand, agree to and accept
+this "Small Print!" statement. If you do not, you can receive 773,6186%By using or reading any part of this PROJECT GUTENBERG-tm
+eBook, you indicate that you understand, agree to and accept 2,58*BEFORE!* YOU USE OR READ THIS EBOOK
+By using or reading any part of this PROJECT GUTENBERG-tm 771,3786%*BEFORE!* YOU USE OR READ THIS EBOOK 770,0-186%you may distribute copies of this eBook if you want to.
+ 769,5686%disclaims most of our liability to you. It also tells you how
+you may distribute copies of this eBook if you want to. 768,6286%fault. So, among other things, this "Small Print!" statement
+disclaims most of our liability to you. It also tells you how 767,6185%someone other than us, and even if what's wrong is not our
+fault. So, among other things, this "Small Print!" statement 6,59your copy of this eBook, even if you got it for free from
+someone other than us, and even if what's wrong is not our 765,5885%They tell us you might sue us if there is something wrong with
+your copy of this eBook, even if you got it for free from 764,6385%Why is this "Small Print!" statement here? You know: lawyers.
+They tell us you might sue us if there is something wrong with 763,6285%***START**THE SMALL PRINT!**FOR PUBLIC DOMAIN EBOOKS**START***
+Why is this "Small Print!" statement here? You know: lawyers. 762,6385%***START**THE SMALL PRINT!**FOR PUBLIC DOMAIN EBOOKS**START*** 761,0-185%(Three Pages)
+ 760,1485%(Three Pages) 759,0-185% 758,0-184%**The Legal Small Print**
+ 757,2684%**The Legal Small Print** 756,0-184% 755,0-184%We would prefer to send you information by email.
+ 754,5084%We would prefer to send you information by email. 753,0-184%Prof. Hart will answer or forward your message.
+ 752,4884%Prof. Hart will answer or forward your message. 751,0-184%Michael S. Hart <hart@pobox.com>
+ 750,3384%Michael S. Hart <hart@pobox.com> 749,0-183%you can always email directly to:
+ 748,3483%If you can't reach Project Gutenberg,
+you can always email directly to: 747,3883%If you can't reach Project Gutenberg, 746,0-183%***
+ 745,483%*** 744,0-183% 743,0-183%http://www.gutenberg.net/donation.html
+ 742,3983%http://www.gutenberg.net/donation.html 741,0-183%You can get up to date donation information online at:
+ 740,5582%You can get up to date donation information online at: 739,0-182%We need your donations more than ever!
+ 738,3982%We need your donations more than ever! 737,0-182%made and fund-raising will begin in the additional states.
+ 736,5982%requirements for other states are met, additions to this list will be 
+made and fund-raising will begin in the additional states. 735,6482%tax-deductible to the maximum extent permitted by law.  As fund-raising 
+requirements for other states are met, additions to this list wi734,6482%[Employee Identification Number] 64-622154.  Donations are
+tax-deductible to the maximum extent permitted by law.  As fund-733,5982%the US Internal Revenue Service as a 501(c)(3) organization with EIN 
+[Employee Identification Number] 64-622154.  Donations are 732,6482%The Project Gutenberg Literary Archive Foundation has been approved by 
+the US Internal Revenue Service as a 501(c)(3) organization with731,6481%The Project Gutenberg Literary Archive Foundation has been appro0,0-1method other than by check or money order.
+ 29,43 Contact us if you want to arrange for a wire transfer or payment 
+method other than by check or money order. 728,6481%Contact us if you want to arrange for a wire transfer or payment727,0-181%Salt Lake City, UT 84116
+ 726,2681%809 North 1500 West
+ Salt Lake City, UT 84116 725,2181%PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION
+ 809 North 1500 West 724,4781% PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION 723,0-181%Donations by check or money order may be sent to:
+ 722,5080%Donations by check or money order may be sent to: 721,0-180%ways.
+ 720,680%deductible, and don't have the staff to handle it even if there are 
+ways. 719,6480%how to make them tax-deductible, or even if they CAN be made
+deductible, and don't have the staff to handle it even if there 718,6180%International donations are accepted, but we don't know ANYTHING about 
+how to make them tax-deductible, or even if they CAN be made 717,6480%International donations are accepted, but we don't know ANYTHING716,0-180%donate.
+ 715,880%donations from donors in these states who approach us with an offer to 
+donate. 714,6480%not yet registered, we know of no prohibition against accepting
+donations from donors in these states who approach us with an of713,6479%While we cannot solicit donations from people in states where we are 
+not yet registered, we know of no prohibition against accepting 712,6479%While we cannot solicit donations from people in states where we711,0-179%just ask.
+ 710,1079%you would like to know if we have added it since the list you have, 
+just ask. 709,6479%request donations in all 50 states.  If your state is not listed and 
+you would like to know if we have added it since the list you ha708,6479%We are constantly working on finishing the paperwork to legally
+request donations in all 50 states.  If your state is not listed707,6479%We are constantly working on finishing the paperwork to legally 6,0-1In answer to various questions we have received on this:
+ 705,5779%In answer to various questions we have received on this: 704,0-178%Please feel free to ask to check the status of your state.
+ 703,5978%will be made and fund raising will begin in the additional states. 
+Please feel free to ask to check the status of your state. 702,6478%As the requirements for other states are met, additions to this list 
+will be made and fund raising will begin in the additional state1As the requirements for other states are met, additions to this 700,0-178%that have responded.
+ 699,2178%We have filed in all 50 states now, but these are the only ones
+that have responded. 698,6478%We have filed in all 50 states now, but these are the only ones 697,0-178%Virginia, Wisconsin, and Wyoming.
+ 696,3478%Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West 
+Virginia, Wisconsin, and Wyoming. 695,6477%Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South 
+Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, W4Hampshire, New Jersey, New Mexico, New York, North Carolina, Ohio, 
+Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, So693,6477%Michigan, Mississippi, Missouri, Montana, Nebraska, Nevada, New
+Hampshire, New Jersey, New Mexico, New York, North Carolina, Ohi692,6477%Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Massachusetts, 
+Michigan, Mississippi, Missouri, Montana, Nebraska, Nevada, New 691,6477%Delaware, District of Columbia, Florida, Georgia, Hawaii, Illinois, 
+Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Massachusetts690,6477%and organizations in: Alabama, Alaska, Arkansas, Connecticut,
+Delaware, District of Columbia, Florida, Georgia, Hawaii, Illino689,6277%As of February, 2002, contributions are being solicited from people 
+and organizations in: Alabama, Alaska, Arkansas, Connecticut, 688,6477%As of February, 2002, contributions are being solicited from peo687,0-176%We need your donations more than ever!
+ 686,3976%We need your donations more than ever! 685,0-176%to secure a future for Project Gutenberg into the next millennium. 
+ 684,6476%The Project Gutenberg Literary Archive Foundation has been created 
+to secure a future for Project Gutenberg into the next millenniu683,6476%The Project Gutenberg Literary Archive Foundation has been creat682,0-176% 681,0-176%233 fewer lines~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               681,0-1Bot681,0-1Bot10000  2004 January*680,1Bot9000  2003 November*679,1Bot6000  2002 December*678,1Bot4000  2001 October/November677,1Bot3000  2001 November676,1Bot2500  2000 December675,1Bot2000  1999 December674,1Bot1500  1998 October673,1Bot1000  1997 August672,1Bot100  1994 January671,1Bot10  1991 January670,1Bot1  1971 July669,1Bot668,0-1BoteBooks Year Month667,1Bot666,0-1BotHere is the briefest record of our progress (* means estimated):665,1Bot664,0-1Botwhich is only about 4% of the present number of computer users.663,1BotThis is ten thousand titles each to one hundred million readers,662,1BotThe Goal of Project Gutenberg is to Give Away 1 Trillion eBooks!661,1Bot660,0-1Botwill reach over half a trillion eBooks given away by year's end.659,1BotIf they reach just 1-2% of the world's population then the total658,199%We are already on our way to trying for 2000 more eBooks in 2002657,199%files per month:  1240 more eBooks in 2001 for a total of 4000+656,199%million dollars per hour in 2002 as we release over 100 new text655,199%per text is nominally estimated at one dollar then we produce $2654,199%projected audience is one hundred million readers.  If the value653,199%searched and analyzed, the copyright letters written, etc.   Our652,198%to get any eBook selected, entered, proofread, edited, copyright651,198%time it takes us, a rather conservative estimate, is fifty hours650,198%We produce about two million dollars for each hour we work.  The649,198%648,0-198%Information about Project Gutenberg (one page)647,198%646,0-198%645,0-197%as it appears in our Newsletters.644,197%Just search by the first five letters of the filename you want,643,197%642,0-197%91 or 90641,197%Or /etext04, 03, 02, 01, 00, 99, 98, 97, 96, 95, 94, 93, 92, 92,640,197%639,0-196%ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/etext05638,196%http://www.ibiblio.org/gutenberg/etext05 or637,196%636,0-196%announcement goes out in the Project Gutenberg Newsletter.635,196%indexes our cataloguers produce obviously take a while after an634,196%also a good way to get them instantly upon announcement, as the633,196%can get to them as follows, and just download by date.  This is632,195%Those of you who want to download any eBook before announcement631,195%630,0-195%629,0-195%eBooks, and how to subscribe to our email newsletter (free!).628,195%Gutenberg, including how to donate, how to help produce our new627,195%These Web sites include award-winning information about Project626,194%625,0-194%http://promo.net/pg624,194%http://gutenberg.net or623,194%Most people start at our Web sites at:622,194%621,0-194%and editing by those who wish to do so.620,194%preliminary version may often be posted for suggestion, comment619,193%Midnight, Central Time, of the last day of the stated month.  A618,193%The official release date of all Project Gutenberg eBooks is at617,193%midnight of the last day of the month of any such announcement.616,193%Please note neither this listing nor its contents are final til615,193%614,0-193%even years after the official publication date.613,193%Please be encouraged to tell us about any error or corrections,612,192%of the official release dates, leaving time for better editing.611,192%We are now trying to release all our eBooks one year in advance610,192%609,0-192%keep eBooks in compliance with any particular paper edition.608,192%unless a copyright notice is included.  Thus, we usually do not607,192%editions, all of which are confirmed as Public Domain in the US606,191%Project Gutenberg eBooks are often created from several printed605,191%604,0-191%This file should be named 5.txt or 5.zip603,191%602,0-191%*** END OF THE PROJECT GUTENBERG EBOOK, THE UNITED STATES' CONSTITUTION ***601,191%600,0-191%599,0-190%6001,1  2,0-13,1  4,0-15,1  6789,0-110,1  1234,0-15,1  6789201,0-1
+Most people start at our Web sites at:622,191%
+http://gutenberg.net or623,191%
+http://promo.net/pg624,191%
+625,0-191%
+These Web sites include award-winning information about Project626,191%
+Gutenberg, including how to donate, how to help produce our new627,191%
+eBooks, and how to subscribe to our email newsletter (free!).628,191%
+629,0-192%
+630,0-192%
+Those of you who want to download any eBook before announcement631,192%
+can get to them as follows, and just download by date.  This is632,192%
+also a good way to get them instantly upon announcement, as the633,192%
+indexes our cataloguers produce obviously take a while after an634,192%
+announcement goes out in the Project Gutenberg Newsletter.635,193%
+636,0-193%
+http://www.ibiblio.org/gutenberg/etext05 or637,193%
+ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/etext05638,193%
+639,0-193%
+Or /etext04, 03, 02, 01, 00, 99, 98, 97, 96, 95, 94, 93, 92, 92,640,193%
+91 or 90641,193%
+642,0-194%
+Just search by the first five letters of the filename you want,643,194%
+as it appears in our Newsletters.644,194%
+645,0-194%
+646,0-194%
+Information about Project Gutenberg (one page)647,194%
+648,0-194%
+We produce about two million dollars for each hour we work.  The649,195%
+time it takes us, a rather conservative estimate, is fifty hours650,195%
+to get any eBook selected, entered, proofread, edited, copyright651,195%
+searched and analyzed, the copyright letters written, etc.   Our652,195%
+projected audience is one hundred million readers.  If the value653,195%
+per text is nominally estimated at one dollar then we produce $2654,195%
+million dollars per hour in 2002 as we release over 100 new text655,196%
+files per month:  1240 more eBooks in 2001 for a total of 4000+656,196%
+We are already on our way to trying for 2000 more eBooks in 2002657,196%
+If they reach just 1-2% of the world's population then the total658,196%
+will reach over half a trillion eBooks given away by year's end.659,196%
+660,0-196%
+The Goal of Project Gutenberg is to Give Away 1 Trillion eBooks!661,196%
+This is ten thousand titles each to one hundred million readers,662,197%
+which is only about 4% of the present number of computer users.663,197%
+664,0-197%
+Here is the briefest record of our progress (* means estimated):665,197%
+666,0-197%
+eBooks Year Month667,197%
+668,0-198%
+1  1971 July669,198%
+10  1991 January670,198%
+100  1994 January671,198%
+1000  1997 August672,198%
+1500  1998 October673,198%
+2000  1999 December674,198%
+2500  2000 December675,199%
+3000  2001 November676,199%
+4000  2001 October/November677,199%
+6000  2002 December*678,199%
+9000  2003 November*679,199%
+10000  2004 January*680,199%
+681,0-1Bot0,1  79876543210698,0-17,1  6,0-15,1  4,0-13,1  210,0-159,1  If they reach just 1-2% of the world's population then the total658,199%We are already on our way to trying for 2000 more eBooks in 2002657,199%files per month:  1240 more eBooks in 2001 for a total of 4000+656,199%million dollars per hour in 2002 as we release over 100 new text655,199%per text is nominally estimated at one dollar then we produce $2654,199%projected audience is one hundred million readers.  If the value653,199%searched and analyzed, the copyright letters written, etc.   Our652,198%to get any eBook selected, entered, proofread, edited, copyright651,198%time it takes us, a rather conservative estimate, is fifty hours650,198%We produce about two million dollars for each hour we work.  The649,198%648,0-198%Information about Project Gutenberg (one page)647,198%646,0-198%645,0-197%as it appears in our Newsletters.644,197%Just search by the first five letters of the filename you want,643,197%642,0-197%91 or 90641,197%Or /etext04, 03, 02, 01, 00, 99, 98, 97, 96, 95, 94, 93, 92, 92,640,197%639,0-196%ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/etext05638,196%http://www.ibiblio.org/gutenberg/etext05 or637,196%636,0-196%announcement goes out in the Project Gutenberg Newsletter.635,196%indexes our cataloguers produce obviously take a while after an634,196%also a good way to get them instantly upon announcement, as the633,196%can get to them as follows, and just download by date.  This is632,195%Those of you who want to download any eBook before announcement631,195%630,0-195%629,0-195%eBooks, and how to subscribe to our email newsletter (free!).628,195%Gutenberg, including how to donate, how to help produce our new627,195%These Web sites include award-winning information about Project626,194%625,0-194%http://promo.net/pg624,194%http://gutenberg.net or623,194%Most people start at our Web sites at:622,194%621,0-194%and editing by those who wish to do so.620,194%preliminary version may often be posted for suggestion, comment619,193%Midnight, Central Time, of the last day of the stated month.  A618,193%The official release date of all Project Gutenberg eBooks is at617,193%midnight of the last day of the month of any such announcement.616,193%Please note neither this listing nor its contents are final til615,193%614,0-193%even years after the official publication date.613,193%Please be encouraged to tell us about any error or corrections,612,192%of the official release dates, leaving time for better editing.611,192%We are now trying to release all our eBooks one year in advance610,192%609,0-192%keep eBooks in compliance with any particular paper edition.608,192%unless a copyright notice is included.  Thus, we usually do not607,192%editions, all of which are confirmed as Public Domain in the US606,191%Project Gutenberg eBooks are often created from several printed605,191%604,0-191%This file should be named 5.txt or 5.zip603,191%602,0-191%*** END OF THE PROJECT GUTENBERG EBOOK, THE UNITED STATES' CONSTITUTION ***601,191%600,0-191%599,0-190%598,0-190%597,0-190%596,0-190%595,0-190%William Jackson, Secretary594,190%Attest:593,189%592,0-189%591,0-189%Abr Baldwin590,189%William Few589,189%588,0-189%Georgia587,189%586,0-188%7,1  8,0-19,1  901,0-123,1  45,0-16787678960059987656789600"constitution.txt"681L, 29991C written
+[npawarve@ats-cis ~]$ bin/req 2 2
+
+-----------------
+Fri Sep 16 10:09:37 CDT 2016
+/home/students/npawarve
+R02_002_790047
+-----------------
+
+[npawarve@ats-cis ~]$ head -n 5 constitution.txt ; tail -n 10 constitution.txt ;
+
+THE CONSTITUTION OF THE UNITED STATES OF AMERICA, 1787
+
+
+
+ 1000  1997 August
+ 1500  1998 October
+ 2000  1999 December
+ 2500  2000 December
+ 3000  2001 November
+ 4000  2001 October/November
+ 6000  2002 December*
+ 9000  2003 November*
+10000  2004 January*
+
+[npawarve@ats-cis ~]$ head -n 5 constitution.txt; tail -n 10 constitution.txt;bin/req 2 23
+
+-----------------
+Fri Sep 16 10:10:22 CDT 2016
+/home/students/npawarve
+R02_003_790047
+-----------------
+
+[npawarve@ats-cis ~]$ head -n 40 constitution.txt | tail -n 10
+according to their respective Numbers, which shall be determined
+by adding to the whole number of free Persons, including those
+bound to Service for a Term of Years, and excluding Indians not taxed,
+three fifths of all other Persons.  The actual Enumeration shall be made
+within three Years after the first Meeting of the Congress of the
+United States, and within every subsequent Term of ten Years,
+in such Manner as they shall by law Direct.  The number of
+Representatives shall not exceed one for every thirty Thousand,
+but each State shall have at least one Representative;
+and until such enumeration shall be made, the State of New Hampshire
+[npawarve@ats-cis ~]$ head -n 40 constitution.txt | tail -n 10bin/req 2 34
+
+-----------------
+Fri Sep 16 10:11:02 CDT 2016
+/home/students/npawarve
+R02_004_790047
+-----------------
+
+[npawarve@ats-cis ~]$ bin/req 2 4head -n 40 constitution.txt | tail -n 10cat -b constitution.head -n 40 constitution.txt | tail -n 110thead -n 40 constitution.txt | tail -n 10xthead -n 40 constitution.txt | tail -n 10 head -n 40 constitution.txt | tail -|head -n 40 constitution.txt | tail  head -n 40 constitution.txt | tail | tail | tail  | tail - | tail -n 10 | tail -n 10 | tail -n 10 | tail -n 10 | tail -n 10 
+
+    21according to their respective Numbers, which shall be determined
+    22by adding to the whole number of free Persons, including those
+    23bound to Service for a Term of Years, and excluding Indians not taxed,
+    24three fifths of all other Persons.  The actual Enumeration shall be made
+    25within three Years after the first Meeting of the Congress of the
+    26United States, and within every subsequent Term of ten Years,
+    27in such Manner as they shall by law Direct.  The number of
+    28Representatives shall not exceed one for every thirty Thousand,
+    29but each State shall have at least one Representative;
+    30and until such enumeration shall be made, the State of New Hampshire
+[npawarve@ats-cis ~]$ cat -b constitution.txt | head -n 40 | tail -n 10bin/req 2 45
+
+-----------------
+Fri Sep 16 10:13:50 CDT 2016
+/home/students/npawarve
+R02_005_790047
+-----------------
+
+[npawarve@ats-cis ~]$ who > 
+.bash_history     .cache/           dir_1/            file.txt
+.bash_logout      commands_1.txt    dir_2/            .kshrc
+.bash_profile     .config/          dir_3/            .mozilla/
+.bashrc           constitution.dos  dir_4/            .viminfo
+bin/              constitution.txt  dir_5a/           week2/
+[npawarve@ats-cis ~]$ who > 
+.bash_history     .cache/           dir_1/            file.txt
+.bash_logout      commands_1.txt    dir_2/            .kshrc
+.bash_profile     .config/          dir_3/            .mozilla/
+.bashrc           constitution.dos  dir_4/            .viminfo
+bin/              constitution.txt  dir_5a/           week2/
+[npawarve@ats-cis ~]$ who > 
+.bash_history     .cache/           dir_1/            file.txt
+.bash_logout      commands_1.txt    dir_2/            .kshrc
+.bash_profile     .config/          dir_3/            .mozilla/
+.bashrc           constitution.dos  dir_4/            .viminfo
+bin/              constitution.txt  dir_5a/           week2/
+[npawarve@ats-cis ~]$ who > 
+.bash_history     .cache/           dir_1/            file.txt
+.bash_logout      commands_1.txt    dir_2/            .kshrc
+.bash_profile     .config/          dir_3/            .mozilla/
+.bashrc           constitution.dos  dir_4/            .viminfo
+bin/              constitution.txt  dir_5a/           week2/
+[npawarve@ats-cis ~]$ who > file.txt | tee
+bpeek    pts/1        2016-09-16 08:42 (136.63.235.208)
+npawarve pts/2        2016-09-16 09:55 (99-121-106-151.lightspeed.mssnks.sbcglobal.net)
+[npawarve@ats-cis ~]$ cat te file.txt 
+bpeek    pts/1        2016-09-16 08:42 (136.63.235.208)
+npawarve pts/2        2016-09-16 09:55 (99-121-106-151.lightspeed.mssnks.sbcglobal.net)
+[npawarve@ats-cis ~]$ /binbin/req 2 6
+
+-----------------
+Fri Sep 16 10:15:21 CDT 2016
+/home/students/npawarve
+R02_006_790047
+-----------------
+
+[npawarve@ats-cis ~]$ seleep 30&; sleep 30& ; sleep 30&
+-bash: syntax error near unexpected token `;'
+[npawarve@ats-cis ~]$ sleep 30
+^[[A    q\  ^C
+[npawarve@ats-cis ~]$ sleep 30&
+[1] 31380
+[npawarve@ats-cis ~]$ sleep 30&
+[2] 31381
+[npawarve@ats-cis ~]$ sleep 30&
+[3] 31382
+[npawarve@ats-cis ~]$ ps
+  PID TTY          TIME CMD
+30989 pts/2    00:00:00 bash
+31380 pts/2    00:00:00 sleep
+31381 pts/2    00:00:00 sleep
+31382 pts/2    00:00:00 sleep
+31383 pts/2    00:00:00 ps
+[npawarve@ats-cis ~]$ kill sleep
+-bash: kill: sleep: arguments must be process or job IDs
+[npawarve@ats-cis ~]$ keill 31380
+[npawarve@ats-cis ~]$ kill 3138081
+-bash: kill: (31381) - No such process
+[1]   Terminated              sleep 30
+[2]-  Done                    sleep 30
+[3]+  Done                    sleep 30
+[npawarve@ats-cis ~]$ kill 313810sleeppssleep 30&
+[1] 31393
+[npawarve@ats-cis ~]$ sleep 30&
+[2] 31394
+[npawarve@ats-cis ~]$ sleep 30&
+[3] 31395
+[npawarve@ats-cis ~]$ ps
+  PID TTY          TIME CMD
+30989 pts/2    00:00:00 bash
+31393 pts/2    00:00:00 sleep
+31394 pts/2    00:00:00 sleep
+31395 pts/2    00:00:00 sleep
+31397 pts/2    00:00:00 ps
+[npawarve@ats-cis ~]$ kill 31394
+[npawarve@ats-cis ~]$ wc >> stop
+^C
+[1]   Done                    sleep 30
+[2]-  Terminated              sleep 30
+[3]+  Done                    sleep 30
+[npawarve@ats-cis ~]$ wc >> stop stop stop< stop< stop
+> Blue
+> car
+> Supercalifragilisticexpialidocious
+> 5 6 7
+> Spiderman
+> stop
+ 5  7 60
+[npawarve@ats-cis ~]$ exit
+logout

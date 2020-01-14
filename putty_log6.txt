@@ -1,0 +1,172 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.10.25 18:27:57 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Oct 25 18:27:10 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ bin/req 6 1
+
+-----------------
+Tue Oct 25 18:29:18 CDT 2016
+/home/students/npawarve
+R06_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ csh
+[npawarve@ats-cis ~]$ vim .cshrc 
+  ".cshrc" 1L, 30Cset prompt = 'csh command? $ '
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               1,1All2345678910123456789201234567898-- INSERT --1,28All $'93029$'89 '301,29All".cshrc"1L, 31C written
+[npawarve@ats-cis ~]$ source .cshrc 
+csh command? $ exit
+exit
+[npawarve@ats-cis ~]$ exit
+logout
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.10.25 18:48:13 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Oct 25 18:31:02 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ csh
+csh command? $ bin/req 6 2
+
+-----------------
+Tue Oct 25 18:48:55 CDT 2016
+/home/students/npawarve
+R06_002_790047
+-----------------
+
+csh command? $ who
+bvinson  pts/0        2016-10-24 01:03 (23-255-169-213.mci.googlefiber.net)
+npawarve pts/1        2016-10-25 18:48 (narayana-portable.jccc.wifi)
+kthoma69 pts/2        2016-10-25 16:56 (cpe-24-31-226-13.kc.res.rr.com)
+clocke1  pts/4        2016-10-25 17:59 (rc36101.student.directory.jccc)
+npawarve pts/5        2016-10-25 18:27 (narayana-portable.jccc.wifi)
+nmarti15 pts/6        2016-10-25 18:47 (rc34406.student.directory.jccc)
+csh command? $ ls
+bin                  constitution.dos  Lab1  Lab5    trash
+constitution3_8.txt  constitution.txt  Lab4  p6_tmp
+csh command? $ pwd
+/home/students/npawarve
+csh command? $ sleep 5
+csh command? $ ps
+  PID TTY          TIME CMD
+27729 pts/1    00:00:00 bash
+27774 pts/1    00:00:00 csh
+27806 pts/1    00:00:00 ps
+csh command? $ history
+     117:16ls -a
+     217:17ech $prompt
+     318:31tcsh
+     518:36echo $PROMPT
+     618:36echo $prompt
+     718:37csh
+     818:37echo $SHELL
+     918:38set prompt = "csh Command? $\"
+    1018:38set $prompt = "csh Command? $\"
+    1118:38set $prompt = "csh Command? $\"
+    1218:41set $prompt = "csh Command? $\" | csh
+    1418:47clear
+    1518:47vim .cshrc
+    1618:47source .cshrc
+    1718:48exit
+    1818:48bin/req 6 2
+    1918:49who
+    2018:49ls
+    2118:49pwd
+    2218:49sleep 5
+    2418:50ps
+    2518:50source .csh
+    2618:50history
+csh command? $ echo !21
+pwd
+/home/students/npawarve
+csh command? $ bin/req 6 3
+
+-----------------
+Tue Oct 25 18:50:53 CDT 2016
+/home/students/npawarve
+R06_003_790047
+-----------------
+
+csh command? $ pwd
+/home/students/npawarve
+csh command? $ alias cdr 'pushd .; cd /'
+csh command? $ cdr
+~ ~ 
+csh command? $ pwd
+/
+csh command? $ dirs
+/ ~ 
+csh command? $ cd ~
+csh command? $ bin/req 6 4
+
+-----------------
+Tue Oct 25 19:11:54 CDT 2016
+/home/students/npawarve
+R06_004_790047
+-----------------
+
+csh command? $ sleep 30
+^Z
+Suspended
+csh command? $ jobs
+[1]  + Suspended                     sleep 30
+csh command? $ fg 1
+sleep 30
+csh command? $ jobs
+[1]  + Running                       sleep 30
+csh command? $ jobs
+[1]  + Done                          sleep 30
+csh command? $ bin/req 6 5
+
+-----------------
+Tue Oct 25 19:15:08 CDT 2016
+/home/students/npawarve
+R06_005_790047
+-----------------
+
+csh command? $ set noglob
+csh command? $ ls *
+ls: cannot access *: No such file or directory
+csh command? $ unset noglob
+csh command? $ ls *
+constitution3_8.txt  constitution.dos  constitution.txt
+
+bin:
+req
+
+Lab1:
+commands_1.txt  dir_1  dir_2  dir_3  dir_4  dir_5a  file.txt  week2
+
+Lab4:
+con_mod.txt  constitution.txt  p4_s1.sed
+
+Lab5:
+p5_s1.sh
+
+p6_tmp:
+file_3
+
+trash:
+file_1_bak  file_2  file_2_bak
+csh command? $ bin/req 6 6
+
+-----------------
+Tue Oct 25 19:17:48 CDT 2016
+/home/students/npawarve
+R06_006_790047
+-----------------
+
+csh command? $ date > date.txtcat
+csh command? $ cat date.txt
+Tue Oct 25 19:19:52 CDT 2016
+csh command? $ date > date.txtcat
+csh command? $ cat date.txt
+Tue Oct 25 19:19:55 CDT 2016
+csh command? $ date >> date.txtcat
+csh command? $ cat date.txt
+Tue Oct 25 19:19:57 CDT 2016
+Tue Oct 25 19:20:13 CDT 2016
+csh command? $ exit
+exit
+[npawarve@ats-cis ~]$ exit
+logout

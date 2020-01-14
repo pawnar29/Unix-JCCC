@@ -1,0 +1,995 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.06 19:39:32 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Sep  6 18:59:04 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ mkdir ~/bin
+[npawarve@ats-cis ~]$ cp /home/faculty/clocke1/req ~/bin
+[npawarve@ats-cis ~]$ vim ~/bin/.bash_profile
+  "~/.bash_profile" 12L, 193C# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               1,1All2,0-13,1  45,1-86,1  7,0-18,1  9,0-110,1 23456PATH:$HOME/.local/bin:$HOME/binATH:$HOME/.local/bin:$HOME/binTH:$HOME/.local/bin:$HOME/binH:$HOME/.local/bin:$HOME/bin:$HOME/.local/bin:$HOME/bin$HOME/.local/bin:$HOME/bin1 change; before #6  9 seconds ago:$HOME/.local/bin:$HOME/bin10,6All5  10 seconds agoH:$HOME/.local/bin:$HOME/bin10,6All4  12TH:$HOME/.local/bin:$HOME/bin10,6All3ATH:$HOME/.local/bin:$HOME/bin10,6All2PATH:$HOME/.local/bin:$HOME/bin10,6All1$PATH:$HOME/.local/bin:$HOME/bin10,6AllAlready at oldest change10,6All9,0-110,6 -- INSERT --10,6All$PATH:$HOME/.local/bin:$HOME/bin7H$PATH:$HOME/.local/bin:$HOME/bin8O$PATH:$HOME/.local/bin:$HOME/bin9M$PATH:$HOME/.local/bin:$HOME/bin10E$PATH:$HOME/.local/bin:$HOME/bin1/$PATH:$HOME/.local/bin:$HOME/bin2b$PATH:$HOME/.local/bin:$HOME/bin3i$PATH:$HOME/.local/bin:$HOME/bin4n$PATH:$HOME/.local/bin:$HOME/bin5:$PATH:$HOME/.local/bin:$HOME/bin6u$PATH:$HOME/.local/bin:$HOME/bin7u$PATH:$HOME/.local/bin:$HOME/bin8u$PATH:$HOME/.local/bin:$HOME/bin9$PATH:$HOME/.local/bin:$HOME/bin8$PATH:$HOME/.local/bin:$HOME/bin7$PATH:$HOME/.local/bin:$HOME/bin6$PATH:$HOME/.local/bin:$HOME/bin5:$PATH:$HOME/.local/bin:$HOME/bin610,15All1 change; before #7  76 seconds agoPATH:$HOME/.local/bin:$HOME10,6AllAlready at oldest change10,6All:q![npawarve@ats-cis ~]$ cat ~/.bash_profrile
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+[npawarve@ats-cis ~]$ cat ~/.bash_profilevim
+  "~/.bash_profile" 12L, 193C# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               10,1All1,0-1-- INSERT --12,1Top12,1AllS2T3U4_5I6D7"
+export PATH8"
+export PATH987STU_ID="83920"100"17"29"30"40"54"67"7654321790047"0790047"9 1012345613,1Alle2x3p4o5r6t7export 8S9T10U1_2I3D414,1All14,0-1All".bash_profile"15L, 224C written
+[npawarve@ats-cis ~]$ vim ~/.bash_profilecat
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+STU_ID="790047"
+export STU_ID
+
+export PATH
+
+[npawarve@ats-cis ~]$ source ./.bash_profile
+[npawarve@ats-cis ~]$ bin/ req 1 1
+
+-----------------
+Tue Sep  6 19:58:07 CDT 2016
+/home/students/npawarve
+R01_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ logout
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.06 19:59:02 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Sep  6 19:39:41 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ req 1 1
+
+-----------------
+Tue Sep  6 19:59:25 CDT 2016
+/home/students/npawarve
+R01_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.06 19:59:56 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Sep  6 19:59:12 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ man chmod
+CHMOD(1)                         User Commands                        CHMOD(1)
+
+NAME
+       chmod - change file mode bits
+
+SYNOPSIS
+       chmod [OPTION]... MODE[,MODE]... FILE...
+       chmod [OPTION]... OCTAL-MODE FILE...
+       chmod [OPTION]... --reference=RFILE FILE...
+
+DESCRIPTION
+       This manual page documents the GNU version of chmod.  chmod changes the
+       file mode bits of each given file  according  to  mode,  which  can  be
+       either a symbolic representation of changes to make, or an octal number
+       representing the bit pattern for the new mode bits.
+
+       The format of a symbolic mode is  [ugoa...][[+-=][perms...]...],  where
+       perms  is  either zero or more letters from the set rwxXst, or a single
+       letter from the set ugo.  Multiple symbolic modes can be  given,  sepa
+       rated by commas.
+
+       A  combination  of the letters ugoa controls which users' access to the
+       file will be changed: the user who owns it  (u),  other  users  in  the
+ Manual page chmod(1) line 1 (press h for help or q to quit)vim commands_1.txt
+  "commands_1.txt" [New File]~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All-- INSERT --0,1AllC1,2h3m4o5d65d67-89 ESCESCOOBB       file's group (g), other users not in the file's group (o), or all users
+ Manual page chmod(1) line 2 (press h for help or q to quit) ESCESCOOBB       (a).  If none of these are given, the effect is as if a were given, but
+ Manual page chmod(1) line 5 (press h for help or q to quit) ESCESCOOBB       bits that are set in the umask are not affected.
+ Manual page chmod(1) line 6 (press h for help or q to quit) ESCESCOOBB
+ Manual page chmod(1) line 7 (press h for help or q to quit) ESCESCOOBB       The  operator  +  causes the selected file mode bits to be added to the
+ Manual page chmod(1) line 8 (press h for help or q to quit) ESCESCOOBB       existing file mode bits of each file; - causes them to be removed;  and
+ Manual page chmod(1) line 9 (press h for help or q to quit) ESCESCOOBB       =  causes  them  to  be added and causes unmentioned bits to be removed
+ Manual page chmod(1) line 10 (press h for help or q to quit) ESCESCOOBB       except that a directory's unmentioned set user and group  ID  bits  are
+ Manual page chmod(1) line 11 (press h for help or q to quit) ESCESCOOBB       not affected.
+ Manual page chmod(1) line 12 (press h for help or q to quit) ESCESCOOBB
+ Manual page chmod(1) line 13 (press h for help or q to quit) ESCESCOOBB       The  letters  rwxXst select file mode bits for the affected users: read
+ Manual page chmod(1) line 14 (press h for help or q to quit) ESCESCOOBB       (r), write (w), execute (or search for directories) (x), execute/search
+ Manual page chmod(1) line 15 (press h for help or q to quit) ESCESCOOBB       only  if  the file is a directory or already has execute permission for
+ Manual page chmod(1) line 16 (press h for help or q to quit) ESCESCOOBB       some user (X), set user or group ID on execution (s), restricted  dele
+ Manual page chmod(1) line 17 (press h for help or q to quit) ESCESCOOAA       either a symbolic representation of changes to make, or an octal number
+ Manual page chmod(1) line 16 (press h for help or q to quit) ESCESCOOAA       file mode bits of each given file  according  to  mode,  which  can  be
+ Manual page chmod(1) line 15 (press h for help or q to quit) ESCESCOOAA       This manual page documents the GNU version of chmod.  chmod changes the
+ Manual page chmod(1) line 14 (press h for help or q to quit) ESCESCOOAADESCRIPTION
+ Manual page chmod(1) line 13 (press h for help or q to quit) ESCESCOOAA
+ Manual page chmod(1) line 12 (press h for help or q to quit) ESCESCOOAA       chmod [OPTION]... --reference=RFILE FILE...
+ Manual page chmod(1) line 11 (press h for help or q to quit) ESCESCOOAA       chmod [OPTION]... OCTAL-MODE FILE...
+ Manual page chmod(1) line 10 (press h for help or q to quit) ESCESCOOAA       chmod [OPTION]... MODE[,MODE]... FILE...
+ Manual page chmod(1) line 9 (press h for help or q to quit) ESCESCOOAASYNOPSIS
+ Manual page chmod(1) line 8 (press h for help or q to quit) ESCESCOOAA
+ Manual page chmod(1) line 7 (press h for help or q to quit) ESCESCOOAA       chmod - change file mode bits
+ Manual page chmod(1) line 6 (press h for help or q to quit)C10h1m2o3d45m6o76o7d8d9i20198i9f20i1e2s343210y1s23t4h56543210i1e2s34t5h6e78o9w30n1e2r3s45o6f78a940f1i2l3e45o6r78a950f1o2l3d4e5r6.78I98T9h60e1210e1y23a4r5e67m8o9d70i1e210e1f2i3e4d56b7y89e80i1t2h3e4e543e4r56u7s8i9n90g12a34o5c6t7a8g9o100n1a2l34o5r67a89876543,45m6o7d8e910b1a2s3e4d5(1,116All()1,117All61,117All6s)7y)8m)9b)20o)1l)2i)3c)4 )5o)6r)7 )8a)9b)30s)1o)2l)3u)4t)5e)61,137All()8a9n40d12t3h4i5s67g8i9v50s10e1s23c4e5r6t7a8i9n601p2e3r4m5i6s7s8i9o70n1s23t4o56e7a8c9h801o2f4321079876543210698765432105987654321049876543210398()  p1,137All  p6()  p543210298765432101987()  p1,116All  p5 (symbolic or absolute) and this gives certainn permissions to each of6()nn 5 ()nn 6nn 1,117All()nn 89201234678930123456()nn 7nn 1,138All()nn 9401234567895012345678960123456789701234567898012345t6h7e8765432107987o8w9n80e1r2107987u8s9e80r1s2,34g5e65r6o7u8p9s901a2n3d45e6v7e8r9y200o1n2e34e5l6s7e8.92,1  3[npawarve@ats-cis ~]$ man chown
+CHOWN(1)                         User Commands                        CHOWN(1)
+
+NAME
+       chown - change file owner and group
+
+SYNOPSIS
+       chown [OPTION]... [OWNER][:[GROUP]] FILE...
+       chown [OPTION]... --reference=RFILE FILE...
+
+DESCRIPTION
+       This manual page documents the GNU version of chown.  chown changes the
+       user and/or group ownership of each given file.  If only  an  owner  (a
+       user  name or numeric user ID) is given, that user is made the owner of
+       each given file, and the files' group is not changed.  If the owner  is
+       followed  by  a  colon  and a group name (or numeric group ID), with no
+       spaces between them, the group ownership of the  files  is  changed  as
+       well.  If a colon but no group name follows the user name, that user is
+       made the owner of the files and the group of the files  is  changed  to
+       that  user's  login  group.   If the colon and group are given, but the
+       owner is omitted, only the group of the files is changed; in this case,
+       chown  performs  the same function as chgrp.  If only a colon is given,
+       or if the entire operand is empty, neither the owner nor the  group  is
+       changed.
+ Manual page chown(1) line 1 (press h for help or q to quit)C2H32c3o432h3o4w5n67-89C10h1o2w3n452,1 1,1545678920123456789301234 of a file or a folder. They are modefied by eitther using a octagonal, mode based (symbolic or absolute) and this gives certain  permissions to users, groups and everyone else.3 of a file or a folder. They are modefied by eithher using a octagonal, mode based (symbolic or absolute) and this gives certain ppermissions to users, groups and everyone else.2 of a file or a folder. They are modefied by eitheer using a octagonal, mode based (symbolic or absolute) and this gives certain peermissions to users, groups and everyone else.1 of a file or a folder. They are modefied by eitherr using a octagonal, mode based (symbolic or absolute) and this gives certain perrmissions to users, groups and everyone else.0 of a file or a folder. They are modefied by either  using a octagonal, mode based (symbolic or absolute) and this gives certain permmissions to users, groups and everyone else.29 of a file or a folder. They are modefied by either uusing a octagonal, mode based (symbolic or absolute) and this gives certain permiissions to users, groups and everyone else.8p of a file or a folder. They are modefied by either  using a octagonal, mode based (symbolic or absolute) and this gives certain permmissions to users, groups and everyone else.9e of a file or a folder. They are modefied by eitherr using a octagonal, mode based (symbolic or absolute) and this gives certain perrmissions to users, groups and everyone else.30r of a file or a folder. They are modefied by eitheer using a octagonal, mode based (symbolic or absolute) and this gives certain peermissions to users, groups and everyone else.1m of a file or a folder. They are modefied by eithher using a octagonal, mode based (symbolic or absolute) and this gives certain ppermissions to users, groups and everyone else.2i of a file or a folder. They are modefied by eitther using a octagonal, mode based (symbolic or absolute) and this gives certain  permissions to users, groups and everyone else.3s of a file or a folder. They are modefied by eiither using a octagonal, mode based (symbolic or absolute) and this gives certainn permissions to users, groups and everyone else.4s of a file or a folder. They are modefied by eeither using a octagonal, mode based (symbolic or absolute) and this gives certaiin permissions to users, groups and everyone else.5i of a file or a folder. They are modefied by  either using a octagonal, mode based (symbolic or absolute) and this gives certaain permissions to users, groups and everyone else.6o of a file or a folder. They are modefied byy either using a octagonal, mode based (symbolic or absolute) and this gives certtain permissions to users, groups and everyone else.7n of a file or a folder. They are modefied bby either using a octagonal, mode based (symbolic or absolute) and this gives cerrtain permissions to users, groups and everyone else.8s of a file or a folder. They are modefied  by either using a octagonal, mode based (symbolic or absolute) and this gives ceertain permissions to users, groups and everyone else.92,1 3,15m6o7d8i9f20i1e2s34t5h6e78o9w30n1e2r3s45o6r78g9r40o1u2p3s45t6h7a8t950a1r2e34a5b6l7e89t60o12a3c4c5e6s7s89t70h1e23d4a5t6a7.89t80h1i2s34c5o6nm8765432~                                                                               107989T80h1i2s34c5o6m7m8a9n90d12c3o4m5b6i7n8e9s1001w2i3t4h56t7h8e910c1h2m3o4d56c7o8m9m20a1n2d34t5o67g8i9v30e12p3e4r5m6i7s8i9o40n1s23210398s9i40o1n2s34t5o67p8e9o50p1l2e3432104987u8s9e50r1s2,34g5r6o7u8p9s601a2n3d45e6v7e8r9y70o1n2e34e5l6s7e8.980u10B1u2t34t5h6i7s89i90s12m3a4n5l6y78u9s200e1d23a4s56t7h8e910f1i2r3s4t56s7t8e9l2019p20.14,1  5[npawarve@ats-cis ~]$ hanman head
+HEAD(1)                          User Commands                         HEAD(1)
+
+NAME
+       head - output the first part of files
+
+SYNOPSIS
+       head [OPTION]... [FILE]...
+
+DESCRIPTION
+       Print  the  first  10 lines of each FILE to standard output.  With more
+       than one FILE, precede each with a header giving the file  name.   With
+       no FILE, or when FILE is -, read standard input.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -c, --bytes=[-]K
+              print the first K bytes of each  file;  with  the  leading  '-',
+              print all but the last K bytes of each file
+
+       -n, --lines=[-]K
+              print  the first K lines instead of the first 10; with the lead
+              ing '-', print all but the last K lines of each file
+ Manual page head(1) line 1 (press h for help or q to quit)H2e3a4d56-78H9e10a1d23d4e5f6a7u8l9t20s10l1y23p4r5i6n7t8s930t1h2e34f5i6r7s8t94011023l4i5n6e7s89o50f12t3h4e56p7r8o9g60r1a2m34o5r67654321059876543212a34f5i6l7e8.960T1h2i3s45m6a7k8e9s701i2t34s5p6e7c8i9fa81l2l3y45o6r7i8n9e90t1e2d343210898e9n90t1e2d34t5o67p8r9e100v1i2e3w4i5n6g78t9h10e12f3i4l5e6.78T9h20e121r2e34a5r6e78s98s9w30i1t2c3h4e5s67i8n940398767f8o9r401h2e3a4d56t7h8a9t501c2a3n45h6a7v8e960y1o2u34l54s5e6e78t9h70e1210698h9o70w1e2r32v3e4r5656m7a8n9t801079y801l2i3n4e5s67a8s990y1o2u34w5a6n7t8 ESCESCOOBB
+ Manual page head(1) line 2 (press h for help or q to quit) ESCESCOOBB       -q, --quiet, --silent
+ Manual page head(1) line 5 (press h for help or q to quit) ESCESCOOBB              never print headers giving file names
+ Manual page head(1) line 6 (press h for help or q to quit) ESCESCOOBB
+ Manual page head(1) line 7 (press h for help or q to quit) ESCESCOOBB       -v, --verbose
+ Manual page head(1) line 8 (press h for help or q to quit) ESCESCOOBB              always print headers giving file names
+ Manual page head(1) line 9 (press h for help or q to quit) ESCESCOOBB
+ Manual page head(1) line 10 (press h for help or q to quit) ESCESCOOBB       --help display this help and exit
+ Manual page head(1) line 11 (press h for help or q to quit) ESCESCOOBB
+ Manual page head(1) line 12 (press h for help or q to quit) ESCESCOOBB       --version
+ Manual page head(1) line 13 (press h for help or q to quit) ESCESCOOBB              output version information and exit
+ Manual page head(1) line 14 (press h for help or q to quit) ESCESCOOBB
+ Manual page head(1) line 15 (press h for help or q to quit) ESCESCOOBB       K may have a multiplier suffix: b 512, kB 1000, K 1024, MB 1000*1000, M
+ Manual page head(1) line 16 (press h for help or q to quit) ESCESCOOBB       1024*1024,  GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E,
+ Manual page head(1) line 17 (press h for help or q to quit) ESCESCOOBB       Z, Y.
+ Manual page head(1) line 18 (press h for help or q to quit) ESCESCOOBB
+ Manual page head(1) line 19 (press h for help or q to quit)9i200n12t3h4e56f7i8l9e10.16,1  7:217,0-1All:w"commands_1.txt" [New] 7L, 650C written7,0-1All7,0-1All-- INSERT --7,1AllL2e3s4s5[npawarve@ats-cis ~]$ man less
+LESS(1)                     General Commands Manual                    LESS(1)
+
+NAME
+       less - opposite of more
+
+SYNOPSIS
+       less -?
+       less --help
+       less -V
+       less --version
+       less [-[+]aABcCdeEfFgGiIJKLmMnNqQrRsSuUVwWX~]
+            [-b space] [-h lines] [-j line] [-k keyfile]
+            [-{oO} logfile] [-p pattern] [-P prompt] [-t tag]
+            [-T tagsfile] [-x tab,...] [-y lines] [-[z] lines]
+            [-# shift] [+[+]cmd] [--] [filename]...
+       (See  the  OPTIONS section for alternate option syntax with long option
+       names.)
+
+DESCRIPTION
+       Less is a program similar to more (1), but which allows backward  move
+       ment in the file as well as forward movement.  Also, less does not have
+       to read the entire input file before  starting,  so  with  large  input
+       files  it  starts  up  faster than text editors like vi (1).  Less uses
+ Manual page less(1) line 1 (press h for help or q to quit) ESCESCOOBB       termcap (or terminfo on some systems), so it can run on  a  variety  of
+ Manual page less(1) line 2 (press h for help or q to quit) ESCESCOOBB       terminals.   There is even limited support for hardcopy terminals.  (On
+ Manual page less(1) line 5 (press h for help or q to quit) ESCESCOOBB       a hardcopy terminal, lines which should be printed at the  top  of  the
+ Manual page less(1) line 6 (press h for help or q to quit) ESCESCOOBB       screen are prefixed with a caret.)
+ Manual page less(1) line 7 (press h for help or q to quit) ESCESCOOBB
+ Manual page less(1) line 8 (press h for help or q to quit) ESCESCOOBB       Commands  are based on both more and vi.  Commands may be preceded by a
+ Manual page less(1) line 9 (press h for help or q to quit) ESCESCOOBB       decimal number, called N in the descriptions below.  The number is used
+ Manual page less(1) line 10 (press h for help or q to quit) ESCESCOOBB       by some commands, as indicated.
+ Manual page less(1) line 11 (press h for help or q to quit) ESCESCOOBB
+ Manual page less(1) line 12 (press h for help or q to quit) ESCESCOOBBCOMMANDS
+ Manual page less(1) line 13 (press h for help or q to quit) ESCESCOOBB       In  the following descriptions, ^X means control-X.  ESC stands for the
+ Manual page less(1) line 14 (press h for help or q to quit) ESCESCOOBB       ESCAPE  key;  for  example  ESC-v  means  the  two  character  sequence
+ Manual page less(1) line 15 (press h for help or q to quit)67-876-78"9"109 8T9h10i1s23p4r5o6g7r8a9m201i2s34s5i6m7u8l9a30r12t3o45t6h7 e987e89c40o1m2m3a4n5d67m8o9r50e12a3n4d56l7i8e9k6010598k9e601c2a3t45t6h7a8t970i1t23d4i5s6p7l8a9y80s1 2t3h4e56d7a8t9a901w2oi432i3t4h5i6n78a9100f1i2l3e4,56b7u8t910i1n23l4e5e6e765s6s7,89y20o1u23c4a5n67s8c9r30o1l2l34d5o6w7n8987654u5p67a8m98n9d401d2o3w4n5.67This52p3r4o5g6r7a8m960w1o2r3k4s56w7e8l9l701w2i3t4h56p7i8p9e80s12t3a43h4a5t67i8t990c1a2n34t5a6k7e87e89i200n1p2u3t4s56a7n8d910m1a2k3e4s56i7t89e20a1s2i3l4y56v7i8e9w30a1b2l3e4.58,1  9[npawarve@ats-cis ~]$ man ls
+LS(1)                            User Commands                           LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci
+       fied.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+ Manual page ls(1) line 1 (press h for help or q to quit)L2s34-56D76T7h8i9s101p2r3o4g5r6a7m89d20i1s2p3l4a5y6s78t9h30e12c3o4n5t6e7n8e9t40s10398t9s401o2f34a56f7i8l9e501a2n3d45i6t78c9a60n12w3o4r5k67w8i9t70h12d3i4f5f6e7r8e9n80t1 2s3w4i5t6c7h8e9s901t2h3a4t56a7r8e9100t1o23s4h5o6w78t9h10e12o3w4n5e6r7s89a20n1d23t4h5e67p8e9r30m1i2s3s4i5o6n7s89o40f12t3h4e56f7i8l9e50.1210498765432103987654321029876543210198765432100987654321099 87654321089876543210798765432106987654321059876543210 and it can work with different  switches that are to show the owners and the permissions of the file. 49 and it can work with different sswitches that are to show the owners and the permissions of the file. 8 and it can work with different swwitches that are to show the owners and the permissions of the file. 7 and it can work with different swiitches that are to show the owners and the permissions of the file. 6f and it can work with different swwitches that are to show the owners and the permissions of the file.7o and it can work with different sswitches that are to show the owners and the permissions of the file.8l and it can work with different  switches that are to show the owners and the permissions of the file.9d and it can work with differentt switches that are to show the owners and the permissions of the file.50e and it can work with differennt switches that are to show the owners and the permissions of the file.1r and it can work with differeent switches that are to show the owners and the permissions of the file.2345678960123456789701234567898012345678990123456789100123456789101256782123457893013456740123467895012s.3/.4f.5o.6l.7d.8e.9r.. 60ss.1 .2i.3t.4 .5c.6o.7n.8t.9a.70i.1n.2s.34 ESCESCOOBB              with -l, print the author of each file
+ Manual page ls(1) line 2 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 5 (press h for help or q to quit) ESCESCOOBB       -b, --escape
+ Manual page ls(1) line 6 (press h for help or q to quit) ESCESCOOBB              print C-style escapes for nongraphic characters
+ Manual page ls(1) line 7 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 8 (press h for help or q to quit) ESCESCOOBB       --block-size=SIZE
+ Manual page ls(1) line 9 (press h for help or q to quit) ESCESCOOBB              scale sizes by SIZE before printing them; e.g., '--block-size=M'
+ Manual page ls(1) line 10 (press h for help or q to quit) ESCESCOOBB              prints sizes in units of 1,048,576 bytes; see SIZE format below
+ Manual page ls(1) line 11 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 12 (press h for help or q to quit) ESCESCOOBB       -B, --ignore-backups
+ Manual page ls(1) line 13 (press h for help or q to quit) ESCESCOOBB              do not list implied entries ending with ~
+ Manual page ls(1) line 14 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 15 (press h for help or q to quit) ESCESCOOBB       -c     with -lt: sort by, and show, ctime (time of last modification of
+ Manual page ls(1) line 16 (press h for help or q to quit) ESCESCOOBB              file status information); with -l: show ctime and sort by  name;
+ Manual page ls(1) line 17 (press h for help or q to quit) ESCESCOOBB              otherwise: sort by ctime, newest first
+ Manual page ls(1) line 18 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 19 (press h for help or q to quit) ESCESCOOBB       -C     list entries by columns
+ Manual page ls(1) line 20 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 21 (press h for help or q to quit) ESCESCOOBB       --color[=WHEN]
+ Manual page ls(1) line 22 (press h for help or q to quit) ESCESCOOAA
+ Manual page ls(1) line 21 (press h for help or q to quit) ESCESCOOBB       --color[=WHEN]
+ Manual page ls(1) line 22 (press h for help or q to quit) ESCESCOOBB              colorize  the  output;  WHEN can be 'never', 'auto', or 'always'
+ Manual page ls(1) line 23 (press h for help or q to quit) ESCESCOOBB              (the default); more info below
+ Manual page ls(1) line 24 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 25 (press h for help or q to quit) ESCESCOOBB       -d, --directory
+ Manual page ls(1) line 26 (press h for help or q to quit) ESCESCOOBB              list directories themselves, not their contents
+ Manual page ls(1) line 27 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 28 (press h for help or q to quit) ESCESCOOBB       -D, --dired
+ Manual page ls(1) line 29 (press h for help or q to quit) ESCESCOOBB              generate output designed for Emacs' dired mode
+ Manual page ls(1) line 30 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 31 (press h for help or q to quit) ESCESCOOBB       -f     do not sort, enable -aU, disable -ls --color
+ Manual page ls(1) line 32 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 33 (press h for help or q to quit) ESCESCOOBB       -F, --classify
+ Manual page ls(1) line 34 (press h for help or q to quit) ESCESCOOBB              append indicator (one of */=>@|) to entries
+ Manual page ls(1) line 35 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 36 (press h for help or q to quit) ESCESCOOBB       --file-type
+ Manual page ls(1) line 37 (press h for help or q to quit) ESCESCOOBB              likewise, except do not append '*'
+ Manual page ls(1) line 38 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 39 (press h for help or q to quit) ESCESCOOBB       --format=WORD
+ Manual page ls(1) line 40 (press h for help or q to quit) ESCESCOOBB              across -x, commas -m, horizontal -x, long -l, single-column  -1,
+ Manual page ls(1) line 41 (press h for help or q to quit) ESCESCOOBB              verbose -l, vertical -C
+ Manual page ls(1) line 42 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 43 (press h for help or q to quit) ESCESCOOBB       --full-time
+ Manual page ls(1) line 44 (press h for help or q to quit) ESCESCOOBB              like -l --time-style=full-iso
+ Manual page ls(1) line 45 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 46 (press h for help or q to quit) ESCESCOOBB       -g     like -l, but do not list owner
+ Manual page ls(1) line 47 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 48 (press h for help or q to quit) ESCESCOOBB       --group-directories-first
+ Manual page ls(1) line 49 (press h for help or q to quit) ESCESCOOBB              group directories before files;
+ Manual page ls(1) line 50 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 51 (press h for help or q to quit) ESCESCOOBB              can   be  augmented  with  a  --sort  option,  but  any  use  of
+ Manual page ls(1) line 52 (press h for help or q to quit) ESCESCOOBB              --sort=none (-U) disables grouping
+ Manual page ls(1) line 53 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 54 (press h for help or q to quit) ESCESCOOBB       -G, --no-group
+ Manual page ls(1) line 55 (press h for help or q to quit) ESCESCOOBB              in a long listing, don't print group names
+ Manual page ls(1) line 56 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 57 (press h for help or q to quit) ESCESCOOBB       -h, --human-readable
+ Manual page ls(1) line 58 (press h for help or q to quit) ESCESCOOBB              with -l, print sizes in human readable format (e.g., 1K 234M 2G)
+ Manual page ls(1) line 59 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 60 (press h for help or q to quit) ESCESCOOBB       --si   likewise, but use powers of 1000 not 1024
+ Manual page ls(1) line 61 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 62 (press h for help or q to quit) ESCESCOOBB       -H, --dereference-command-line
+ Manual page ls(1) line 63 (press h for help or q to quit) ESCESCOOBB              follow symbolic links listed on the command line
+ Manual page ls(1) line 64 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 65 (press h for help or q to quit) ESCESCOOBB       --dereference-command-line-symlink-to-dir
+ Manual page ls(1) line 66 (press h for help or q to quit) ESCESCOOBB              follow each command line symbolic link
+ Manual page ls(1) line 67 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 68 (press h for help or q to quit) ESCESCOOBB              that points to a directory
+ Manual page ls(1) line 69 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 70 (press h for help or q to quit) ESCESCOOBB       --hide=PATTERN
+ Manual page ls(1) line 71 (press h for help or q to quit) ESCESCOOBB              do not list implied entries matching shell  PATTERN  (overridden
+ Manual page ls(1) line 72 (press h for help or q to quit) ESCESCOOBB              by -a or -A)
+ Manual page ls(1) line 73 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 74 (press h for help or q to quit) ESCESCOOBB       --indicator-style=WORD
+ Manual page ls(1) line 75 (press h for help or q to quit) ESCESCOOBB              append indicator with style WORD to entry names: none (default),
+ Manual page ls(1) line 76 (press h for help or q to quit) ESCESCOOBB              slash (-p), file-type (--file-type), classify (-F)
+ Manual page ls(1) line 77 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 78 (press h for help or q to quit) ESCESCOOBB       -i, --inode
+ Manual page ls(1) line 79 (press h for help or q to quit) ESCESCOOBB              print the index number of each file
+ Manual page ls(1) line 80 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 81 (press h for help or q to quit) ESCESCOOBB       -I, --ignore=PATTERN
+ Manual page ls(1) line 82 (press h for help or q to quit) ESCESCOOBB              do not list implied entries matching shell PATTERN
+ Manual page ls(1) line 83 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 84 (press h for help or q to quit) ESCESCOOBB       -k, --kibibytes
+ Manual page ls(1) line 85 (press h for help or q to quit) ESCESCOOBB              default to 1024-byte blocks for disk usage
+ Manual page ls(1) line 86 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 87 (press h for help or q to quit) ESCESCOOBB       -l     use a long listing format
+ Manual page ls(1) line 88 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 89 (press h for help or q to quit) ESCESCOOBB       -L, --dereference
+ Manual page ls(1) line 90 (press h for help or q to quit) ESCESCOOBB              when showing file information for a symbolic link, show informa
+ Manual page ls(1) line 91 (press h for help or q to quit) ESCESCOOBB              tion  for  the file the link references rather than for the link
+ Manual page ls(1) line 92 (press h for help or q to quit) ESCESCOOBB              itself
+ Manual page ls(1) line 93 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 94 (press h for help or q to quit) ESCESCOOBB       -m     fill width with a comma separated list of entries
+ Manual page ls(1) line 95 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 96 (press h for help or q to quit) ESCESCOOBB       -n, --numeric-uid-gid
+ Manual page ls(1) line 97 (press h for help or q to quit) ESCESCOOBB              like -l, but list numeric user and group IDs
+ Manual page ls(1) line 98 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 99 (press h for help or q to quit) ESCESCOOBB       -N, --literal
+ Manual page ls(1) line 100 (press h for help or q to quit) ESCESCOOBB              print raw entry names (don't treat e.g. control characters  spe
+ Manual page ls(1) line 101 (press h for help or q to quit) ESCESCOOBB              cially)
+ Manual page ls(1) line 102 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 103 (press h for help or q to quit) ESCESCOOBB       -o     like -l, but do not list group information
+ Manual page ls(1) line 104 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 105 (press h for help or q to quit) ESCESCOOBB       -p, --indicator-style=slash
+ Manual page ls(1) line 106 (press h for help or q to quit) ESCESCOOBB              append / indicator to directories
+ Manual page ls(1) line 107 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 108 (press h for help or q to quit) ESCESCOOBB       -q, --hide-control-chars
+ Manual page ls(1) line 109 (press h for help or q to quit) ESCESCOOBB              print ? instead of nongraphic characters
+ Manual page ls(1) line 110 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 111 (press h for help or q to quit) ESCESCOOBB       --show-control-chars
+ Manual page ls(1) line 112 (press h for help or q to quit) ESCESCOOBB              show nongraphic characters as-is (the default, unless program is
+ Manual page ls(1) line 113 (press h for help or q to quit) ESCESCOOBB              'ls' and output is a terminal)
+ Manual page ls(1) line 114 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 115 (press h for help or q to quit) ESCESCOOBB       -Q, --quote-name
+ Manual page ls(1) line 116 (press h for help or q to quit) ESCESCOOBB              enclose entry names in double quotes
+ Manual page ls(1) line 117 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 118 (press h for help or q to quit) ESCESCOOBB       --quoting-style=WORD
+ Manual page ls(1) line 119 (press h for help or q to quit) ESCESCOOBB              use quoting style WORD for entry names: literal, locale,  shell,
+ Manual page ls(1) line 120 (press h for help or q to quit) ESCESCOOBB              shell-always, c, escape
+ Manual page ls(1) line 121 (press h for help or q to quit) ESCESCOOBB
+ Manual page ls(1) line 122 (press h for help or q to quit) ESCESCOOBB       -r, --reverse
+ Manual page ls(1) line 123 (press h for help or q to quit)
+ 10,1 
+ 1M2o3r4e56-78"9"10 9  8T9h10i1s23p4r5o6g7r8a9m201i2s34s5i6m7u8l9a30r12t3o45w6h7a8t940c1a2n3 2t34c5a6n78d9o501b2u3t45d6i7s8p9l60a1y2s34l5e6s7s89i70n1f2o3r4m5a6t7io9n80   1a2t34o5n6e7c8e9 8 7 6c7e8.990B1u2t34t5h6i7s89p100r1o2g3r4a5m67i8s910d1i2f3f4e5r6n7t898 7 6e7n8t920f1r2o3m45L6 545t6h7e89l30e1s2s34c5o6m7m8a9n40d12b3e4c5a6u7s8e950t1h2i3s45p6r7o8g9r60aa 1m23c4a5n67c8 7o8n9y70l1 0 69l70y12s3c4r5o6o7 6 5o6l7l89d80o1wn4a5n6d78o9n90 89 8n9o90t12u3p4.56T7h8i9s2001c2a3n45be78b9e10n1e2f3i4t5i6a7l89b20u1t23i4n56m7y89o30w1n23r4e5c6c7o8m9e40nn 
+~                                                                               ~                                                                               11,241Botd2a3t4i5o6n7,89I501r2a3t4h5e6r78d9o601l2e3s4w5 4s5.6
+ 2,1  
+ 3m2v3 2 1M2v34-56[npawarve@ats-cis ~]$ man more
+MORE(1)                          User Commands                         MORE(1)
+
+NAME
+       more - file perusal filter for crt viewing
+
+SYNOPSIS
+       more [options] file [...]
+
+DESCRIPTION
+       more is a filter for paging through text one screenful at a time.  This
+       version is especially primitive.  Users  should  realize  that  less(1)
+       provides more(1) emulation plus extensive enhancements.
+
+OPTIONS
+       Command-line  options are described below.  Options are also taken from
+       the environment variable MORE (make sure to precede them  with  a  dash
+       (``-'')) but command line options will override them.
+
+       -number
+              This option specifies an integer number which is the screen size
+              (in lines).
+
+       -d     more will prompt the user with the message "[Press space to con
+ Manual page more(1) line 1 (press h for help or q to quit) ESCESCOOBB              tinue,  'q' to quit.]" and will display "[Press 'h' for instruc
+ Manual page more(1) line 2 (press h for help or q to quit) ESCESCOOBB              tions.]" instead of ringing the bell  when  an  illegal  key  is
+ Manual page more(1) line 5 (press h for help or q to quit) ESCESCOOBB              pressed.
+ Manual page more(1) line 6 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 7 (press h for help or q to quit) ESCESCOOBB       -l     more  usually  treats ^L (form feed) as a special character, and
+ Manual page more(1) line 8 (press h for help or q to quit) ESCESCOOBB              will pause after any line that contains a  form  feed.   The  -l
+ Manual page more(1) line 9 (press h for help or q to quit) ESCESCOOBB              option will prevent this behavior.
+ Manual page more(1) line 10 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 11 (press h for help or q to quit) ESCESCOOBB       -f     Causes  more  to  count logical, rather than screen lines (i.e.,
+ Manual page more(1) line 12 (press h for help or q to quit) ESCESCOOBB              long lines are not folded).
+ Manual page more(1) line 13 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 14 (press h for help or q to quit) ESCESCOOBB       -p     Do not scroll.  Instead, clear the whole screen and then display
+ Manual page more(1) line 15 (press h for help or q to quit) ESCESCOOBB              the  text.  Notice that this option is switched on automatically
+ Manual page more(1) line 16 (press h for help or q to quit) ESCESCOOBB              if the executable is named page.
+ Manual page more(1) line 17 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 18 (press h for help or q to quit) ESCESCOOBB       -c     Do not scroll.  Instead, paint each screen from the top,  clear
+ Manual page more(1) line 19 (press h for help or q to quit) ESCESCOOBB              ing the remainder of each line as it is displayed.
+ Manual page more(1) line 20 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 21 (press h for help or q to quit) ESCESCOOBB       -s     Squeeze multiple blank lines into one.
+ Manual page more(1) line 22 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 23 (press h for help or q to quit) ESCESCOOBB       -u     Suppress underlining.
+ Manual page more(1) line 24 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 25 (press h for help or q to quit) ESCESCOOBB       +/     The  +/  option  specifies  a  string  that will be searched for
+ Manual page more(1) line 26 (press h for help or q to quit) ESCESCOOBB              before each file is displayed.
+ Manual page more(1) line 27 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 28 (press h for help or q to quit) ESCESCOOBB       +number
+ Manual page more(1) line 29 (press h for help or q to quit) ESCESCOOBB              Start at line number.
+ Manual page more(1) line 30 (press h for help or q to quit) ESCESCOOBB
+ Manual page more(1) line 31 (press h for help or q to quit) ESCESCOOBBCOMMANDS
+ Manual page more(1) line 32 (press h for help or q to quit) ESCESCOOBB       Interactive commands for more are based on vi(1).  Some commands may be
+ Manual page more(1) line 33 (press h for help or q to quit) ESCESCOOBB       preceded  by  a decimal number, called k in the descriptions below.  In
+ Manual page more(1) line 34 (press h for help or q to quit) ESCESCOOBB       the following descriptions, ^X means control-X.
+ Manual page more(1) line 35 (press h for help or q to quit)2,11,62,11,6789101234567892012345678930123452,1 1,35678940123456789501234567896013456789701234567898012345678990123456789100123456789101234567892012345678930123456789401234567895012345678960123456789701234567898012345678990122034567891012345678  but in my own reccomeendation, I rather do less.9t but in my own reccommendation, I rather do less.20h but in my own reccoomendation, I rather do less.1a but in my own recccomendation, I rather do less.2t but in my own recccomendation, I rather do less.3  but in my own reeccomendation, I rather do less.4i but in my own rreccomendation, I rather do less.5t but in my own  reccomendation, I rather do less.6  but in my ownn reccomendation, I rather do less.7d but in my owwn reccomendation, I rather do less.8o but in my oown reccomendation, I rather do less.9w but in my  own reccomendation, I rather do less.30 but in my oown reccomendation, I rather do less.29e but in my  own reccomendation, I rather do less.30s but in myy own reccomendation, I rather do less.1  but in mmy own reccomendation, I rather do less.2h but in  my own reccomendation, I rather do less.3a but inn my own reccomendation, I rather do less.4v but iin my own reccomendation, I rather do less.5e but  in my own reccomendation, I rather do less.6  butt in my own reccomendation, I rather do less.7m buut in my own reccomendation, I rather do less.8a bbut in my own reccomendation, I rather do less.9n  but in my own reccomendation, I rather do less.40yy but in my own reccomendation, I rather do less.1  but in my own reccomendation, I rather do less.2m but in my own reccomendation, I rather do less.3o but in my own reccomendation, I rather do less.4r but in my own reccomendation, I rather do less.5e but in my own reccomendation, I rather do less.6  but in my own reccomendation, I rather do less.7w but in my own reccomendation, I rather do less.8 but in my own reccomendation, I rather do less.7s but in my own reccomendation, I rather do less.8w but in my own reccomendation, I rather do less.9i but in my own reccomendation, I rather do less.50t but in my own reccomendation, I rather do less.1c but in my own reccomendation, I rather do less.2h but in my own reccomendation, I rather do less.3e but in my own reccomendation, I rather do less.4s but in my own reccomendation, I rather do less.5  but in my own reccomendation, I rather do less.6t but in my own reccomendation, I rather do less.7h but in my own reccomendation, I rather do less.8a but in my own reccomendation, I rather do less.9t but in my own reccomendation, I rather do less.60  but in my own reccomendation, I rather do less.1c but in my own reccomendation, I rather do less.2a but in my own reccomendation, I rather do less.3n but in my own reccomendation, I rather do less.4  but in my own reccomendation, I rather do less.5be but in my own reccomendation, I rather do less.7  but in my own reccomendation, I rather do less.8u but in my own reccomendation, I rather do less.9s but in my own reccomendation, I rather do less.70e but in my own reccomendation, I rather do less.1d but in my own reccomendation, I rather do less.2  but in my own reccomendation, I rather do less.32,1  3,7[npawarve@ats-cis ~]$ man lessmv
+MV(1)                            User Commands                           MV(1)
+
+NAME
+       mv - move (rename) files
+
+SYNOPSIS
+       mv [OPTION]... [-T] SOURCE DEST
+       mv [OPTION]... SOURCE... DIRECTORY
+       mv [OPTION]... -t DIRECTORY SOURCE...
+
+DESCRIPTION
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       --backup[=CONTROL]
+              make a backup of each existing destination file
+
+       -b     like --backup but does not accept an argument
+
+       -f, --force
+              do not prompt before overwriting
+ Manual page mv(1) line 1 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 2 (press h for help or q to quit) ESCESCOOBB       -i, --interactive
+ Manual page mv(1) line 5 (press h for help or q to quit) ESCESCOOBB              prompt before overwrite
+ Manual page mv(1) line 6 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 7 (press h for help or q to quit) ESCESCOOBB       -n, --no-clobber
+ Manual page mv(1) line 8 (press h for help or q to quit) ESCESCOOBB              do not overwrite an existing file
+ Manual page mv(1) line 9 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 10 (press h for help or q to quit) ESCESCOOBB       If you specify more than one of -i, -f, -n, only the  final  one  takes
+ Manual page mv(1) line 11 (press h for help or q to quit) ESCESCOOBB       effect.
+ Manual page mv(1) line 12 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 13 (press h for help or q to quit) ESCESCOOBB       --strip-trailing-slashes
+ Manual page mv(1) line 14 (press h for help or q to quit) ESCESCOOBB              remove any trailing slashes from each SOURCE argument
+ Manual page mv(1) line 15 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 16 (press h for help or q to quit) ESCESCOOBB       -S, --suffix=SUFFIX
+ Manual page mv(1) line 17 (press h for help or q to quit) ESCESCOOBB              override the usual backup suffix
+ Manual page mv(1) line 18 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 19 (press h for help or q to quit) ESCESCOOBB       -t, --target-directory=DIRECTORY
+ Manual page mv(1) line 20 (press h for help or q to quit) ESCESCOOBB              move all SOURCE arguments into DIRECTORY
+ Manual page mv(1) line 21 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 22 (press h for help or q to quit) ESCESCOOBB       -T, --no-target-directory
+ Manual page mv(1) line 23 (press h for help or q to quit) ESCESCOOBB              treat DEST as a normal file
+ Manual page mv(1) line 24 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 25 (press h for help or q to quit) ESCESCOOBB       -u, --update
+ Manual page mv(1) line 26 (press h for help or q to quit) ESCESCOOBB              move  only  when  the  SOURCE file is newer than the destination
+ Manual page mv(1) line 27 (press h for help or q to quit) ESCESCOOBB              file or when the destination file is missing
+ Manual page mv(1) line 28 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 29 (press h for help or q to quit) ESCESCOOBB       -v, --verbose
+ Manual page mv(1) line 30 (press h for help or q to quit) ESCESCOOBB              explain what is being done
+ Manual page mv(1) line 31 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 32 (press h for help or q to quit) ESCESCOOBB       -Z, --context
+ Manual page mv(1) line 33 (press h for help or q to quit) ESCESCOOBB              set SELinux security context of destination file to default type
+ Manual page mv(1) line 34 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 35 (press h for help or q to quit) ESCESCOOBB       --help display this help and exit
+ Manual page mv(1) line 36 (press h for help or q to quit) ESCESCOOBB
+ Manual page mv(1) line 37 (press h for help or q to quit) ESCESCOOBB       --version
+ Manual page mv(1) line 38 (press h for help or q to quit)M8v910i1s23a45p6r7o8g9r20m10a1m23t4h5i6s78i9s301u2e32s3e4d56t7o89m40o1v2e34d5a6t7a89t50r1o2u3g4h543210h1r2o3u4g5h67f8o9l60d1e2r3s43210598765432104987654f5i6l7e8s950a1r2o3u4n5d6,78f9r60o1m23o4n5e67p8l9a70c1e23t4o56a7n8o9t80
+h~                                                                               13,81Bote2r3.45T6h7i8s990i1s23e4x54s5p6e7c8i9a100l1l2y34u5s6e7f8u9l101f2o3r45d6i7s8k920a10m1a2n3a4g5e6m7e8n9t301a2n3d45f6o7r89o40r1g2a3n4i5z6a7t8i9o50n1.2~                                                                               ~                                                                               14,1Bot5R2m3d4i5r67-89[npawarve@ats-cis ~]$ man rmdir
+RMDIR(1)                         User Commands                        RMDIR(1)
+
+NAME
+       rmdir - remove empty directories
+
+SYNOPSIS
+       rmdir [OPTION]... DIRECTORY...
+
+DESCRIPTION
+       Remove the DIRECTORY(ies), if they are empty.
+
+       --ignore-fail-on-non-empty
+
+              ignore each failure that is solely because a directory
+
+              is non-empty
+
+       -p, --parents
+              remove  DIRECTORY  and  its ancestors; e.g., 'rmdir -p a/b/c' is
+              similar to 'rmdir a/b/c a/b a'
+
+       -v, --verbose
+              output a diagnostic for every directory processed
+ Manual page rmdir(1) line 1 (press h for help or q to quit) ESCESCOOBB
+ Manual page rmdir(1) line 2 (press h for help or q to quit) ESCESCOOBB       --help display this help and exit
+ Manual page rmdir(1) line 5 (press h for help or q to quit) ESCESCOOBB
+ Manual page rmdir(1) line 6 (press h for help or q to quit) ESCESCOOBB       --version
+ Manual page rmdir(1) line 7 (press h for help or q to quit) ESCESCOOBB              output version information and exit
+ Manual page rmdir(1) line 8 (press h for help or q to quit) ESCESCOOBB
+ Manual page rmdir(1) line 9 (press h for help or q to quit) ESCESCOOBB       GNU  coreutils  online  help:  <http://www.gnu.org/software/coreutils/>
+ Manual page rmdir(1) line 10 (press h for help or q to quit) ESCESCOOBB       Report rmdir translation bugs to <http://translationproject.org/team/>
+ Manual page rmdir(1) line 11 (press h for help or q to quit)T10h1i2s34c5o6m7m8a9n20d12i3s45f6o7r89d30e1l2e3t4i5n6g78r987/8r9e40m1o2v3i4n5g67a89f50i1l2e34f5r6o7m89t60h1e23d4a5t6a78p9o70i1n2t3.45T6h7i8s980p1r2o3g4r5a6m78i9s901d2e3f4a5u6l7t8e9d1001t2o34o5n6l7y89d10e1l2e3t4e56e7m8p9t20y12f3o4l5d6e7r8s930b1u2t34t5e65h6e78r9m401c2o3m4m5a6n7d89c50a1n23r4e5m6o7v8e960
+b~                                                                               15,161Boto2t3h45f6i7l8e9s701a2n3d45f6o7l8d9e80r1s2.3~                                                                               ~                                                                               16,1Bot76567[npawarve@ats-cis ~]$ man rm
+RM(1)                            User Commands                           RM(1)
+
+NAME
+       rm - remove files or directories
+
+SYNOPSIS
+       rm [OPTION]... FILE...
+
+DESCRIPTION
+       This  manual  page  documents  the  GNU version of rm.  rm removes each
+       specified file.  By default, it does not remove directories.
+
+       If the -I or --interactive=once option is given,  and  there  are  more
+       than  three  files  or  the  -r,  -R, or --recursive are given, then rm
+       prompts the user for whether to proceed with the entire operation.   If
+       the response is not affirmative, the entire command is aborted.
+
+       Otherwise,  if  a file is unwritable, standard input is a terminal, and
+       the -f or --force  option  is  not  given,  or  the  -i  or  --interac
+       tive=always  option is given, rm prompts the user for whether to remove
+       the file.  If the response is not affirmative, the file is skipped.
+
+OPTIONS
+ Manual page rm(1) line 1 (press h for help or q to quit)R2m34-56t7h8i9s101c2o3m4m5a6n7d8765432109 8767his command6This command78910123456789i20s12t3o45f6e765r6e7m8o9v30e12o3r5d6e7l8e9t40e12f3i4l5e6s78a9n50d1049878a9n50d12o3r45f6o7l8d9e60r1s23i4n56t7h8e970s1y2s3t4e5m6.78D9e80f1a2u3l4t5l6y7,898y9o90u12c3a4n5n6o7t89d100e1e21l2e3t4e56f7o87o8l9d10e1r2s34b5u6t78i9f201y2o3432o3u4 a6d7d89t30he23s4w5i6t7h87c8h940o1f23-4R565,67i8t950w1i2l3l45r6e7m8o9v60
+e~                                                                               17,161Bot 2e3v4e5r6y7t8h9i70n1g23i4n56ht8e98079876t7h8e980f1o2l3d4e5r67a8n9d901r2e3m4o5v6e78t9h200e12f3o4l5d6e7r8.9~                                                                               ~                                                                               18,1Bot9[npawarve@ats-cis ~]$ man wc
+WC(1)                            User Commands                           WC(1)
+
+NAME
+       wc - print newline, word, and byte counts for each file
+
+SYNOPSIS
+       wc [OPTION]... [FILE]...
+       wc [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Print newline, word, and byte counts for each FILE, and a total line if
+       more than one FILE is specified.  With no FILE, or when FILE is -, read
+       standard  input.   A  word  is a non-zero-length sequence of characters
+       delimited by white space.  The options below  may  be  used  to  select
+       which counts are printed, always in the following order: newline, word,
+       character, byte, maximum line length.
+
+       -c, --bytes
+              print the byte counts
+
+       -m, --chars
+              print the character counts
+
+ Manual page wc(1) line 1 (press h for help or q to quit)W2c34-56a7c8r9y10n1a2m34f5o6r78W9o20r1d23C4o5u6n7t8,930t1h2i3s45r6e7t8u9r40n1s23t4h5e67a8m9o50u1nt34o5f67b8y9t60e1s232,34w5o6r7d8s9,701n2u3m4b5e6r78o9f801l2i3n4e5s67e8t9c90.12t3h4a5t67t8h9e1001f2i3l4e5965(19,106Bot()19,107Bot6s)719,108Bot(s)9c10o1n2t3a4i5n6.78T9h20i1s23i4s56543210198M9o20s1t23s43t4a5s6k7s89a30r1e23m4a5i6n7l8u940a10398y940a1c2c3i4o543o4m5p6l7i8d9e50d1210498s9h50e1d23b4y56u7s8i9n60
+g~                                                                               19,161Bot 2t3h4e565432s3w4i5t6t7c8h9e70s121069876c7h8e9s701a2n3d45t6h7a8t980r1e2t3u4r5n6s78i9t90'1s23c4o5o65r6i7s8p9o200n1d2i3n4g56v7a8l9u10e1s21009876543210199876risponding values78920012345678910123.419,213Bot:w"commands_1.txt" 19L, 2143C written19,213Bot19,213Bot
+[npawarve@ats-cis ~]$ req 1 2
+
+-----------------
+Tue Sep  6 20:24:41 CDT 2016
+/home/students/npawarve
+R01_002_790047
+-----------------
+
+[npawarve@ats-cis ~]$ req 1 2vim commands_1.txtreq 1 1source ./.bash_profile ./.bash_profilereq 1 1vim commands_1.txt
+  "commands_1.txt" 19L, 2143CLs - This program displays the contents of a folder and it can work with differeent switches that are to show the owners and the permissions of the files/folderss it contains.
+
+More - This program is simular to what cat can do but displays less information  at once. But this program is different from the less command because this prograam can only scroll down and not up. This can be benefitial that it does have manyy more switches that can be used  but in my own reccomendation, I rather do less.Mv -  Mv is a program this is used to move files around, from one place to anothher. This is especially useful for disk management and for organization.
+
+Rmdir - This command is for deleting/removing a file from the data point. This pprogram is defaulted to only delete empty folders but the rm command can remove bboth files and folders.
+
+Rm - This command is to remove or delete files and or folders in the system. Deffaultly,you cannot delete folders but if you add the switch of -R, it will removee everything in the folder and remove the folder.
+
+Wc - acrynam for Word Count, this returns the amount of bytes, words, number of  lines etc. that the file(s) contain. Most tasks are mainly accomplished by usingg switches and that returns it's corrisponding values.19,1Bot23456789101234567892012345678930123returns the amount of bytes, words, number of liines etc. that the file(s) contain. Most tasks are mainly accomplished by using sswitches and that returns it's corrisponding values.
+
+
+1 change; before #1  3 seconds agos returns the amount of bytes, words, number of  lines etc. that the file(s) contain. Most tasks are mainly accomplished by usingg switches and that returns it's corrisponding values.19,33Bot54754762497188179027101file(s)gg 5(s)gg 6(s)gg 7(s)gg 9168239334053662715808901320713
+-- INSERT --20,1Bot~                                                                               ~                                                                               20,1Bot1S2u3m4m5e6r7s87y89o10f12w3h4a5t67l8i9k20e1d2:32,1 
+23,1Bot[npawarve@ats-cis ~]$ man rm
+RM(1)                            User Commands                           RM(1)
+
+NAME
+       rm - remove files or directories
+
+SYNOPSIS
+       rm [OPTION]... FILE...
+
+DESCRIPTION
+       This  manual  page  documents  the  GNU version of rm.  rm removes each
+       specified file.  By default, it does not remove directories.
+
+       If the -I or --interactive=once option is given,  and  there  are  more
+       than  three  files  or  the  -r,  -R, or --recursive are given, then rm
+       prompts the user for whether to proceed with the entire operation.   If
+       the response is not affirmative, the entire command is aborted.
+
+       Otherwise,  if  a file is unwritable, standard input is a terminal, and
+       the -f or --force  option  is  not  given,  or  the  -i  or  --interac
+       tive=always  option is given, rm prompts the user for whether to remove
+       the file.  If the response is not affirmative, the file is skipped.
+
+OPTIONS
+ Manual page rm(1) line 1 (press h for help or q to quit)       Remove (unlink) the FILE(s).
+ Manual page rm(1) line 2 (press h for help or q to quit)
+ Manual page rm(1) line 5 (press h for help or q to quit)       -f, --force
+ Manual page rm(1) line 6 (press h for help or q to quit)              ignore nonexistent files and arguments, never prompt
+ Manual page rm(1) line 7 (press h for help or q to quit)
+ Manual page rm(1) line 8 (press h for help or q to quit)       -i     prompt before every removal
+ Manual page rm(1) line 9 (press h for help or q to quit)
+ Manual page rm(1) line 10 (press h for help or q to quit)       -I     prompt once before removing  more  than  three  files,  or  when
+ Manual page rm(1) line 11 (press h for help or q to quit)              removing recursively; less intrusive than -i, while still giving
+ Manual page rm(1) line 12 (press h for help or q to quit)              protection against most mistakes
+ Manual page rm(1) line 13 (press h for help or q to quit)
+ Manual page rm(1) line 14 (press h for help or q to quit)       --interactive[=WHEN]
+ Manual page rm(1) line 15 (press h for help or q to quit)              prompt according to WHEN: never,  once  (-I),  or  always  (-i);
+ Manual page rm(1) line 16 (press h for help or q to quit)              without WHEN, prompt always
+ Manual page rm(1) line 17 (press h for help or q to quit)
+ Manual page rm(1) line 18 (press h for help or q to quit)       --one-file-system
+ Manual page rm(1) line 19 (press h for help or q to quit)              when  removing  a hierarchy recursively, skip any directory that
+ Manual page rm(1) line 20 (press h for help or q to quit)              is on a file system different from  that  of  the  corresponding
+ Manual page rm(1) line 21 (press h for help or q to quit)              command line argument
+ Manual page rm(1) line 22 (press h for help or q to quit)
+ Manual page rm(1) line 23 (press h for help or q to quit)       --no-preserve-root
+ Manual page rm(1) line 24 (press h for help or q to quit)              do not treat '/' specially
+ Manual page rm(1) line 25 (press h for help or q to quit)
+ Manual page rm(1) line 26 (press h for help or q to quit)       --preserve-root
+ Manual page rm(1) line 27 (press h for help or q to quit)              do not remove '/' (default)
+ Manual page rm(1) line 28 (press h for help or q to quit)
+ Manual page rm(1) line 29 (press h for help or q to quit)       -r, -R, --recursive
+ Manual page rm(1) line 30 (press h for help or q to quit)              remove directories and their contents recursively
+ Manual page rm(1) line 31 (press h for help or q to quit)
+ Manual page rm(1) line 32 (press h for help or q to quit)       -d, --dir
+ Manual page rm(1) line 33 (press h for help or q to quit)              remove empty directories
+ Manual page rm(1) line 34 (press h for help or q to quit)
+ Manual page rm(1) line 35 (press h for help or q to quit)       -v, --verbose
+ Manual page rm(1) line 36 (press h for help or q to quit)              explain what is being done
+ Manual page rm(1) line 37 (press h for help or q to quit)
+ Manual page rm(1) line 38 (press h for help or q to quit)       --help display this help and exit
+ Manual page rm(1) line 39 (press h for help or q to quit)
+ Manual page rm(1) line 40 (press h for help or q to quit)       --version
+ Manual page rm(1) line 41 (press h for help or q to quit)              output version information and exit
+ Manual page rm(1) line 42 (press h for help or q to quit)
+ Manual page rm(1) line 43 (press h for help or q to quit)       By default, rm does not remove directories.  Use the --recursive (-r or
+ Manual page rm(1) line 44 (press h for help or q to quit)       -R) option to remove each listed directory, too, along with all of  its
+ Manual page rm(1) line 45 (press h for help or q to quit)       contents.
+ Manual page rm(1) line 46 (press h for help or q to quit)R2m34-56o7n8e910o1f23m4y56b7e8s9876f7a8v9o20r1i2t3e45o6p7t8i9o30n1s232121s23o4f56t7e8h987h8e940r1m23c4o5m6m7a8n9d501i2s34d5o6i7g8n9605987n8g960r1m23-4R5432105960"rm -R123456"76 "7-"8-"9n"70o"1-"2p"3r"4e"5s"6e"7r"8v"9e"80--"
+~                                                                               ~                                                                               ~                                                                               23,81Botr"2o"3o"4t"543210798765432106987654323456  --no-preservee-root"7- --no-preservve-root"8d --no-preserrve-root"97012345678980123456789878 "9-"90v"1 "2/"3"2["23,93Bot[]"23,94Bot3F]"4i]"5l]"6e]"7 ]"8n]"9a]"100m]"1e]"223,103Bot[]4[]23,103Bot2[]1099 8765[]23,93Bot2[]108987654321079876543210698765456 ESCESCOOAA
+ Manual page rm(1) line 45 (press h for help or q to quit) ESCESCOOAA              command line argument
+ Manual page rm(1) line 44 (press h for help or q to quit) ESCESCOOAA              is on a file system different from  that  of  the  corresponding
+ Manual page rm(1) line 43 (press h for help or q to quit) ESCESCOOAA              when  removing  a hierarchy recursively, skip any directory that
+ Manual page rm(1) line 42 (press h for help or q to quit) ESCESCOOAA       --one-file-system
+ Manual page rm(1) line 41 (press h for help or q to quit) ESCESCOOAA
+ Manual page rm(1) line 40 (press h for help or q to quit) ESCESCOOAA              without WHEN, prompt always
+ Manual page rm(1) line 39 (press h for help or q to quit) ESCESCOOAA              prompt according to WHEN: never,  once  (-I),  or  always  (-i);
+ Manual page rm(1) line 38 (press h for help or q to quit) ESCESCOOAA       --interactive[=WHEN]
+ Manual page rm(1) line 37 (press h for help or q to quit) ESCESCOOAA
+ Manual page rm(1) line 36 (press h for help or q to quit) ESCESCOOAA              protection against most mistakes
+ Manual page rm(1) line 35 (press h for help or q to quit) ESCESCOOAA              removing recursively; less intrusive than -i, while still giving
+ Manual page rm(1) line 34 (press h for help or q to quit) ESCESCOOAA       -I     prompt once before removing  more  than  three  files,  or  when
+ Manual page rm(1) line 33 (press h for help or q to quit) ESCESCOOAA
+ Manual page rm(1) line 32 (press h for help or q to quit) ESCESCOOAA       -i     prompt before every removal
+ Manual page rm(1) line 31 (press h for help or q to quit) ESCESCOOAA
+ Manual page rm(1) line 30 (press h for help or q to quit) ESCESCOOAA              ignore nonexistent files and arguments, never prompt
+ Manual page rm(1) line 29 (press h for help or q to quit) ESCESCOOAA       -f, --force
+ Manual page rm(1) line 28 (press h for help or q to quit) ESCESCOOAA
+ Manual page rm(1) line 27 (press h for help or q to quit) ESCESCOOAA       Remove (unlink) the FILE(s).
+ Manual page rm(1) line 26 (press h for help or q to quit)  -d --no-preseerve-root -v [File name]"7- -d --no-presserve-root -v [File name]"8f -d --no-preeserve-root -v [File name]"923,68Bot"commands_1.txt"23L, 2275C written
+[npawarve@ats-cis ~]$ exit
+logout
+[npawarve@ats-cis ~]$ exit
+logout
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.10 21:10:13 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Fri Sep  9 17:47:14 2016 from 99-121-106-151.lightspeed.mssnks.sbcglobal.net
+[npawarve@ats-cis ~]$ vi conls
+bin  commands_1.txt  week2
+[npawarve@ats-cis ~]$ vi commands_1.txt 
+  "commands_1.txt" 29L, 2595CRm - This command is to remove or delete files and or folders in the system. Deffaultly,you cannot delete folders but if you add the switch of -R, it will removee everything in the folder and remove the folder.
+
+Wc - acrynam for Word Count, this returns the amount of bytes, words, number of  lines etc. that the file(s) contain. Most tasks are mainly accomplished by usingg switches and that returns it's corrisponding values.
+
+Summery of what liked:
+
+Chmod - one favorite is the -v verbose logging and it displays the steps that thhe program does. The other is -R to recursively change the file permissions of thhe current folder and contents.
+
+Chown - my favorite options are -c where it is verbose logging but it returns a  report of what files the owners have changed
+
+Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"
+
+
+~                                                                               25,1Bot23456789101234567892012345678930123456789401234567895012345678960123456789701234567898012345678990123456789100123456789101234567892012346,0-15,1  2345678910123456789201234567893012345678940123456789501234567896012345678970123456789801234567899012345678910012345678910123456789201234-- INSERT --25,124Bot d5d456m7y89o30t1h2e3r45432102987654d5.67M8y930o1t2h3e4r56i7s89t40h1e23-4R56w7h8i9c50h12r3e4c5u6r7s8i9v60e1l25,162Boty34c5a65h6a7n8g9e70s12t3h4e56o7w8n9e80r12o3n45t6h7e89c90u1r2e3n4t565432r3e4n5t67f8o9l200d1e2r34a5n67654a5n6d78a9l10l12o3f45i6t7'8c920c1o2n3t4e5n6t7s8.926,193%27,188%L2e3s4s56-78O9m109 n10e12o3f45m6y78f9a20v1o2r3i4t5e6s78i9n301029s301t2h3e45-6f78o9p40t1i2o3n45w6h7e8r9e501i2t34f5o6r7c8e9s601t2h3e45f6i7l8e970t1h2a3t45y6o7u89w80a1n
+
+@                                                                               27,8283%t3e4d56t7o89o90p1e2n3i434i5n67t8h987654a5n6d78d9i100s1p2l3a4y56i7t8'9s101c2o3n4t5e6n7t8s9.201M2y34o5t6h7e8r930o1n232e34i5s67-8N940w1h2e3r4e56i7t89d50i1s2p3l4a5y6s78t9h60e12l3i4n5e67n8u9m70b1e2r34a5s67w8y987y8o9u801a2r3e45g6o7i8n9f901089g901089876545l6o7o8k9i90n1g23a4t56t7h8e9200c1o2n3t4e5n6t7s89o10f12t3h4e56f7i8l9e20.18,1  787627,175%@                                                                               @                                                                               28,171%78
+Less - One of my favorites is the -f option where it forces the file that you waanted to open and display it's contents. My other one is -N where it displays thee line number as you are looking at the contents of the file.29,176%Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-pre@                                                                               30,185%1
+Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"32,190%~                                                                               33,1Bot43210298767H2e3a4d56-78A910f1a2v3o4r5i6t7e89o20f12m3i4n5e67i8s930-1n23w4h5e6r7e89i40t12d3i4s5p6l7a8y9s501o2n3l4y56t7h898e987654321049876543210398765432  where it displays only the3[ where it displays only the27,34Bot[] where it displays only the27,35Bot[]  where it displays only the67894012345678950123456789601234a5m6o7u8n9t701o2f34l5i6n7e8s980ss 27,81Botp2e3c4i5f6i7e8d990a1s23t4h5e67p8a9r100a1m2e3t4e5r6.78M9y101o2t3h4e5r67o8n9e201i2s34-5v67w8h9e30r1e23i4t56p7r8i9 8 7 6d7i8s9p40l1a2y3s456t7h8e950d1e2a3d4e5r676 5 4 3 2 1 049 8 7 65t6h7e89h50e1a2d3e4r56w7i8t9h6027,16195%t2h3e45f6i7l8e970n1a2m3e4w5 4.58,1  9,17530,1  31,190%L2s34-56A78a9d10m1i2r3a4b5l6e78o9p20t1i2o3n45t6h7a8t930i1s23u4s5e6d78a9l40o1t232103940l1o2t34i5s67t8h9e501-2a34o5p6t7i8o9n601t2h3a4t56d7i8s9p70l1a2y3s45a6l7l89t80h1e
+
+@                                                                               31,8286%3f4i5l6e7s89i90m1n23210n12t3h4e56f7o8l9d100e1r232.34T5h6i7s89a1009m10a1k2e3s45e6v7e8r9y201s2i3n4g5l6e78f9i30l1e23v4i5s6i7b8l9e4010,12e3v4e5n67t8h9e501f2o3l4d5e6r78e98s9e60t1t2i3n4g56s765s676.78M9y701o2t3h4e5r67o8n980i1s23-4R565,67w8h9e90r121e23i4t56d7i8s9p200l1a2y3s45t6h7e89c10o1n2t3e4n5s65t6s78o9f201t2h3e45f6o7l8d9e30r12a3n4d56i7f89t40h1e223f4o5l6d7e8r950h1a2s34f5o6l7d8e9r60s1,23i4t56d7i8s9p70l1a2y3u4s543s45t6h7e8m980a1s23w4e5l6l7.8
+32,186%Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"33,10791%2,1  Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-pre@                                                                               38843M2o3r4e56-784,1Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"35,895%6,1
+37,1Bot65,84,13,82,13,8T9h1010e12o3p4t5i6o7n8s920t1h2a3t45I67l8i9k30e12a3r4e56t7h8e940-1p23o4p5t6i7o8n950t1h2a3t45i6s78765d6i7s8p9l60a1y2s34e5a6c7h8987654e5v6e7r8y9t70h1i2n3g45p6a7g8e980b1y33,8296%3p4a5g6e7,89w90h1e2r3e45y6o7u89c100a1n2n3o4t56s7c8r9o10l1l23u4p56o7r89d20o1w2n3,45b6u7t89o30n1l2y34b5e65y67p8a9g40e1s2.34T5h6e78o9t50h1e2r34o5n6e78i9s601t33,16292%h3e45-6s78w9h70e1r2e34i5t67t8a9k80e1s23a4w5a6y78m9u90l1t2i3p4l5e67b8l9a200n1k23l4i5n6e7s89i10n1t2o34o5n6e78l9i20n1e2321019878b9l20a1n2k34a5n6d78t9h30a1t23s4a5v6e7s89a401l
+
+@                                                                               33,24288%o3t45o6f78s9p50a1c2e34o5n67t8h9e601s2c3r4e5e6n7.84,1  Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"35,107Bot4,1  35,196%36,192%5M2v34-56O7n8e9109 876O7n8e910o1f23t4h5e67o8p9t20i1o2n3s45t6h7a8t930I12l3i4k5e67t8o940u1s2e34i5s67t8h9e501-2f34w5h6e7r89i60t1210598e960i1t23d4o5e6s7n8'9t701p2r3o4m5p6t78w9h80e1n
+
+@                                                                               35,8289%3f4i5l6e7s89o90v1e2r3w4r5i6t7e89e100a1c2h34o5t6h7e8r9.101T2h3e45o6t7h8e9r201o2n3e45i6t78765s65i6s78t9h30e12-3v45w6h7e8r9e401i2t34d5i6s7p8l9a50y1s23w4h5a6t78i9s601b2e3i4n5g67o8v987m8o9v70e1d23o4r56o7v8e9r80w1r2i3t4t5e6m787654t5e6n78e9t90c1.26,1  Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"37,107Bot6,1  37,196%38,193%7R2m3d4i5r67-89Keyword completion (^N^P) -- Searching...RmScanning tags.p-- Keyword completion (^N^P) match 1 of 229 Rm                one               of                my                favorite          options           the               rm                command           is                doing             no                preserve          root              File              name              Chmod             modifies          permissions      -- Keyword completion (^N^P) match 1 of 229-- INSERT --37,1193%One of my favoriteaanted to open and display ee line number as you are ladmirable option thhe files in the folder. Thtttings. My other on is -R,hhe folder has folders, it The options that Ibby page, where you cannot   the -s where it takes awa  lot of space on the screee of the options teen files overwrite each ot  being moved or overwritte37,1093%8,0-17,10 9 89109 10-- INSERT --37,1093%m9 m8Keyword completion (^N^P) -- Searching...RmScanning tags.p-- Keyword completion (^N^P) match 1 of 229 Rm                one               of                my                favorite          options           the               rm                command           is                doing             no                preserve          root              File              name              Chmod             modifies          permissions       match 2 of 229 Rm               one              match 3 of 229 one              of               match 4 of 229 of               my               match 5 of 229 my               favorite         match 6 of 229 favorite         options          match 7 of 229 options          the              match 8 of 229 the              rm               match 9 of 229 rm               command          match 10 of 229 command          is               match 11 of 229 is               doing            match 12 of 229 doing            no               match 13 of 229 no               preserve         match 14 of 229 preserve         root             match 15 of 229 root             File             match 16 of 229 File             name             match 17 of 229onef  myfavoriteoptions  the     rm  commandis      doingno    preserveroot     FilenamChmodmodifiespermissionsfile         match 18 of 229f  myfavoriteoptions  the     rm  commandis      doingno    preserveroot     FilenamChmodmodifiespermissionsfile        or    match 19 of 229myfavoriteoptions  the     rm  commandis      doingno    preserveroot     FilenamChmodmodifiespermissionsfile        or   folder match 20 of 229favoriteoptions  the     rm  commandis      doingno    preserveroot     FilenamChmodmodifiespermissionsfile        or   folderThey    match 21 of 229options  the     rm  commandis      doingno    preserveroot     FilenamChmodmodifiespermissionsfile        or   folderThey   are   match 20 of 229 file             or               match 19 of 229 permissions      file             match 18 of 229 modifies         permissions      match 17 of 229 Chmod            modifies         match 16 of 229 name             Chmod            match 15 of 229 File             name             match 14 of 229 root             File             match 13 of 229 preserve         root             match 12 of 229 no               preserve         match 11 of 229 doing            no               match 10 of 229 is               doing            match 9 of 229 command          is               match 8 of 229favoriteoptionstherm      commandis    doingno       preserverootFilname  Chmod    modifies    permissionsfileor     folderThey match 7 of 229my       favoriteoptionstherm      commandis    doingno       preserverootFilname  Chmod    modifies    permissionsfileor     folder match 6 of 229ofmy       favoriteoptionstherm      commandis    doingno       preserverootFilname  Chmod    modifies    permissionsfileor      match 5 of 229neofmy       favoriteoptionstherm      commandis    doingno       preserverootFilname  Chmod    modifies    permissionsfile match 4 of 229Rm  neofmy       favoriteoptionstherm      commandis    doingno       preserverootFilname  Chmod    modifies    permissions match 3 of 229 of               my               match 2 of 229 one              of               match 1 of 229 Rm               one              Back at original Rm               match 229 of 229page pagestakesawaymultiplblank   intosavesspace   screenuse   doesnompt   whenoverwriteeachbeingved     overwritten       match 228 of 229 moved            overwritten      match 227 of 229 being            moved            match 226 of 229 each             being            match 225 of 229 overwrite        each             match 224 of 229 when             overwrite        match 223 of 229 prompt           when             match 222 of 229 doesn            prompt           match 221 of 229 use              doesn            match 220 of 229 screen           use              match 219 of 229 space            screen           match 218 of 229 saves            space            match 217 of 229 into             saves            match 216 of 229 blank            into             match 215 of 229 multiple         blank            match 214 of 229 away             multiple         match 213 of 229them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn  promptwhen      overwriteeach  beingmoved        match 212 of 229has  them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn  promptwhen      overwriteeach  being match 211 of 229settingshas  them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn  promptwhen      overwriteeach   match 210 of 229even     settingshas  them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn  promptwhen      overwrite match 209 of 229visibleeven     settingshas  them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn  promptwhen       match 208 of 229single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn   prompt  match 207 of 229every  single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto  avespace  screenuse   doesn   match 206 of 229lot   every  single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto  avespace  screenuse    match 205 of 229admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto  avespace  screen match 204 of 229looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto  avespace   match 203 of 229ine    looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto  aves match 202 of 229displayine    looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway     multipleblankinto   match 201 of 229open    displayine    looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway     multipleblank match 200 of 229wantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway     multiple match 199 of 229forceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakesaway      match 198 of 229optionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas  them  pagtakes match 197 of 229favoritesoptionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas  them  pag match 196 of 229One       favoritesoptionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas   them    match 195 of 229headerOne       favoritesoptionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas  them match 194 of 229parameterheaderOne       favoritesoptionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settingshas   match 193 of 229specifiedparameterheaderOne       favoritesoptionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     settings match 192 of 229mine      specifiedparameterheaderOne       favoritesoptionforceswantedopen    displayine    looking   admirablelot   every  single  visibleeven     -- Keyword completion (^N^P) match 192 of 229-- INSERT --37,1093% One of my favoritaanted to open and displayee line number as you are  admirable option hhe files in the folder. Ttttings. My other on is -Rhhe folder has folders, it The options that bby page, where you cannot  the -s where it takes aw  lot of space on the screne of the options een files overwrite each o  being moved or overwritt37,993%87-- INSERT --38,190%Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-pre@                                                                               
+Rmdir -
+
+Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"37,893%9A101f2a3v4o5r6i7t8e920o1n23m4i5n6e7654321f23m4i5n6e78i9s301t2h3e45-6p78w9h40e1r2e34i5t67r8e9m50o1v2e3s45t6h7e89c6059s60e1l2e3c4t5e6d78d9i70r1e2c3t4o5r6y78a9n80d1@                                                                               37,8290%c3o4n5t6e7n8t9s901o2f34t5h6e78f9o100l1d2e3r4.56T7h8e910o1t2h3e4r56i7s89t20h1e23-4v56w7h8e9r30e12i3t45s6h7o8w940w1h2a3t45h6a7d89b50e1e2n34e54d5e6l7e8t9e60d12a3n4d56w7h8e9n701u2s3g4n543i4n5g67-8p9,801s2h3o4w5s67a8l9l901t2h3e45o6t7h8e9r2001f2o3l4d5e6r76543210f1o2l3d4e5r6543210199r2001f2o3l4d5e6r78t9h10a1t23a4t54r5e67d8e9l20e1t2e3d4.58,1  Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-preeserve-root -v [File name]"39,107Bot[]39,106Bot[54321099 8739,96Bot543210898765432
+Rm - one of my favorite options of the rm command is doing "rm -R -f -d --no-pre~                                                                               39,81Bot07987654321069876543210598765432104987654321039876543i4s56-7R89w40h1e2r3e45i6t78d9e50l1e2t3e4s56t7e8h960f1o2l3d4e5r67a8d970698n9d701a2l3l45o6f78t9h80e139,82Botc3o4n5t6e7n8t9s9010,12a3n45d6m7y89o100t1h2e3r45o654321099 876543n4d56m7y89o100t1h2e3r45o6n7e89i10s12-3f45t6o78n9o20t12p3r4o5m6p7y87t89f30o1r23e4v5e6r7y89s40i1n2g3l4e56r7e8m9o50v1e2l321a2l34o5f67a8n9y601d296%i3r4e5c6t7o8r9y701o2r34f5i6l7e8.940,1  
+41,1Bot01W2C32c34-56A78g9o10o1d23o4p5t6i7o8n920i1s23t4h5e67-8l930w1h2e3r4e56i7t89d40o10i1s2p3l4a5y6s78o9n501h2o3w45m6a7n8y960l1i2n3e4s56t7h8e970f1i2l3e45c6o7n8t9a80i~                                                                               ~                                                                               ~                                                                               ~                                                                               41,81Botn2s3.45T6h7e8n989o90t1h2e3r45o6n787e89i100t12s32-3w45w6h7e8r9e101i2t34r5e6t7u8r9n201o2n34h5o6w78m9a30n1y23w4o5r6d7s89t40h1e2r3e45a6r7e89i50n12t3h4e56f7i8l9e60.141,160Bot"commands_1.txt"41L, 4307C written
+[npawarve@ats-cis ~]$ bin/req 1 3
+
+-----------------
+Sat Sep 10 22:33:47 CDT 2016
+/home/students/npawarve
+R01_003_790047
+-----------------
+
+[npawarve@ats-cis ~]$ echo ""p"a"r"t" "o"f" "P""p"r"e""o"j"e"c"t" "1" | mailx -s ""C"o"m"m"a"n"d"s" -a ocmmands _1.txt npawarve@stujccc.edu
+ocmmands_1.txt: No such file or directory
+[npawarve@ats-cis ~]$ echo "part of project 1" | mailx -s "Commands" -a ocmmands__1.txt npawarve@jccc.educmmands_1mmands_1.cmmands_1.
+
+cmmands_1.txt: No such file or directory
+[npawarve@ats-cis ~]$ echo "part of project 1" | mailx -s "Commands" -a cmmands_11.txt npawarve@jccc.eduommands_1
+
+[npawarve@ats-cis ~]$ echo "part of project 1" | mailx -s "Commands" -a commands__1.txt npawarve@jccc.edummands_1ocmmands_1bin/req 1 3
+4
+
+-----------------
+Sat Sep 10 22:37:04 CDT 2016
+/home/students/npawarve
+R01_004_790047
+-----------------
+
+[npawarve@ats-cis ~]$ mkdir dir1_1  dir_2 dir_3 dir_4
+[npawarve@ats-cis ~]$ ls
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  week2
+[npawarve@ats-cis ~]$ mkdir dir_4\dir_7
+[npawarve@ats-cis ~]$ ls -rR
+.:
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  dir_4dir_7  week2
+
+./bin:
+req
+
+./dir_1:
+
+./dir_2:
+
+./dir_3:
+
+./dir_4:
+
+./dir_4dir_7:
+
+./week2:
+vimtutor.txt
+[npawarve@ats-cis ~]$ ls -Rmkdir dir_4\dir_7rm dir_4dir_7/
+rm: cannot remove dir_4dir_7/: Is a directory
+[npawarve@ats-cis ~]$ rm dir_4dir_7/d dir_4dir_7/i dir_4dir_7/r dir_4dir_7/
+[npawarve@ats-cis ~]$ mkdir dir_4/dir_7
+[npawarve@ats-cis ~]$ mk dirdir dir_2/dir_5
+[npawarve@ats-cis ~]$ mkdir dir_2/dir_54/dir_72/dir_5/dir_6 dir_2/dir5_5_/dir_8
+[npawarve@ats-cis ~]$ mkdir dir_2/dir_5/dir_6 dir_2/dir_5/dir_8/dir_9
+[npawarve@ats-cis ~]$ ls -R
+.:
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  week2
+
+./bin:
+req
+
+./dir_1:
+
+./dir_2:
+dir_5
+
+./dir_2/dir_5:
+dir_6  dir_8
+
+./dir_2/dir_5/dir_6:
+dir_9
+
+./dir_2/dir_5/dir_6/dir_9:
+
+./dir_2/dir_5/dir_8:
+
+./dir_3:
+
+./dir_4:
+dir_7
+
+./dir_4/dir_7:
+
+./week2:
+vimtutor.txt
+
+[npawarve@ats-cis ~]$ bin/req 1 5
+
+-----------------
+Sat Sep 10 22:43:15 CDT 2016
+/home/students/npawarve
+R01_005_790047
+-----------------
+
+[npawarve@ats-cis ~]$ touch dir2/_2/file_1
+[npawarve@ats-cis ~]$ toiuchuch dir_2/dir_5/dir_
+dir_6/ dir_8/ 
+[npawarve@ats-cis ~]$ touch dir_2/dir_5/dir_8/file_2
+[npawarve@ats-cis ~]$ touch dir_2/dir_5/dir_8/file_23
+[npawarve@ats-cis ~]$ touch dir_2/dir_5/dir_8/file_34
+[npawarve@ats-cis ~]$ touch dir_2/dir_5/dir_8/file_4r_4/dir_7/file_5
+[npawarve@ats-cis ~]$ touch dir_4/dir_7/file_56
+[npawarve@ats-cis ~]$ rebin/req 1 6
+
+-----------------
+Sat Sep 10 22:43:28 CDT 2016
+/home/students/npawarve
+R01_006_790047
+-----------------
+
+[npawarve@ats-cis ~]$ chmod 600 dir_2/file_1 
+[npawarve@ats-cis ~]$ ls dir_2
+dir_5  file_1
+[npawarve@ats-cis ~]$ ls dir_2 dir_2- dir_2l dir_2
+total 0
+drwxr-xr-x. 4 npawarve students 30 Sep 10 22:39 dir_5
+-rw-------. 1 npawarve students  0 Sep 10 22:41 file_1
+[npawarve@ats-cis ~]$ rebin/req 1 7
+
+-----------------
+Sat Sep 10 22:44:45 CDT 2016
+/home/students/npawarve
+R01_007_790047
+-----------------
+
+[npawarve@ats-cis ~]$ chmod 6 60 dir_4/dir_7/file_5
+[npawarve@ats-cis ~]$ chmod 660 dir_4/dir_7/file_5 dir_4/dir_7/file_5 dir_4/dir_7/file_5 dir_4/dir_7/file_5dir_4/dir_7/file_5 dir_4/dir_7/file_5 dir_4/dir_7/file_5 dir_4/dir_7/file_5 dir_4/dir_7/file_5 dir_4/dir_7/file_5l dir_4/dir_7/file_5s dir_4/dir_7/file_5 dir_4/dir_7/file_5- dir_4/dir_7/file_5l dir_4/dir_7/file_5
+-rw-rw----. 1 npawarve students 0 Sep 10 22:42 dir_4/dir_7/file_5
+[npawarve@ats-cis ~]$ bin/req 1 8
+
+-----------------
+Sat Sep 10 22:46:44 CDT 2016
+/home/students/npawarve
+R01_008_790047
+-----------------
+
+[npawarve@ats-cis ~]$ cp dir_2/dir_5/ ./dir_5a
+cp: omitting directory dir_2/dir_5/
+[npawarve@ats-cis ~]$ ls
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  week2
+[npawarve@ats-cis ~]$ lscp dir_2/dir_5/ ./dir_5a ./dir_5a
+cp: omitting directory dir_2/dir_5
+[npawarve@ats-cis ~]$ ls
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  week2
+[npawarve@ats-cis ~]$ lscp dir_2/dir_5 ./dir_5a -R
+[npawarve@ats-cis ~]$ ls
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  dir_5a  week2
+[npawarve@ats-cis ~]$ ls -rR
+.:
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  dir_5a  week2
+
+./bin:
+req
+
+./dir_1:
+
+./dir_2:
+dir_5  file_1
+
+./dir_2/dir_5:
+dir_6  dir_8
+
+./dir_2/dir_5/dir_6:
+dir_9
+
+./dir_2/dir_5/dir_6/dir_9:
+
+./dir_2/dir_5/dir_8:
+file_2  file_3  file_4
+
+./dir_3:
+
+./dir_4:
+dir_7
+
+./dir_4/dir_7:
+file_5  file_6
+
+./dir_5a:
+dir_6  dir_8
+
+./dir_5a/dir_6:
+dir_9
+
+./dir_5a/dir_6/dir_9:
+
+./dir_5a/dir_8:
+file_2  file_3  file_4
+
+./week2:
+vimtutor.txt
+[npawarve@ats-cis ~]$ ls -Rcp -R dir_2/dir_5 ./dir_5alscp dir_2/dir_5 ./dir_5alscp dir_2/dir_5/ ./dir_5abin/req 1 89
+
+-----------------
+Sat Sep 10 22:48:39 CDT 2016
+/home/students/npawarve
+R01_009_790047
+-----------------
+
+[npawarve@ats-cis ~]$ bin/req 1 9ls -R -R
+.:
+bin  commands_1.txt  dir_1  dir_2  dir_3  dir_4  dir_5a  week2
+
+./bin:
+req
+
+./dir_1:
+
+./dir_2:
+dir_5  file_1
+
+./dir_2/dir_5:
+dir_6  dir_8
+
+./dir_2/dir_5/dir_6:
+dir_9
+
+./dir_2/dir_5/dir_6/dir_9:
+
+./dir_2/dir_5/dir_8:
+file_2  file_3  file_4
+
+./dir_3:
+
+./dir_4:
+dir_7
+
+./dir_4/dir_7:
+file_5  file_6
+
+./dir_5a:
+dir_6  dir_8
+
+./dir_5a/dir_6:
+dir_9
+
+./dir_5a/dir_6/dir_9:
+
+./dir_5a/dir_8:
+file_2  file_3  file_4
+
+./week2:
+vimtutor.txt
+[npawarve@ats-cis ~]$ ls -Rbin/req 1 9ls -Rcp -R dir_2/dir_5 ./dir_5alscp dir_2/dir_5 ./dir_5alscp dir_2/dir_5/ ./dir_5abin/req 1 8ls -l dir_4/dir_7/file_5chmod 660bin/req 1 7ls -l dir_2dir_2chmod 600 dir_2/file_1 bin/req 1 65touch dir_4/dir_7/file_652/dir_5/dir_8/file_432file_1ls -Rmkdir dir_2/dir_5/dir_6/dir_9 dir_2/dir_5/dir_84/dir_7rmdir dir_4dir_7/ dir_4dir_7/ls -Rmkdir dir_4\dir_7lsmkdir dir_1 dir_2 dir_3 dir_4bin/req 1 4echo "part of project 1" | mailx -s "Commands" -a commands__1.txt npawarve@jccc.edummands_1ocmmands_1bin/req 1 3
+vi commands_1.txt lsexitlsvi commands_1.txt bin/req 1 3echo "part of project 1" | mailx -s "Commands" -a ocmmands__1.txt npawarve@jccc.educmmands_1ommands_1sjccc.edutjccc.eduujccc.edudjccc.eduejccc.edunjccc.edutjccc.edusjccc.edujccc.edujccc.edujccc.edujccc.edujccc.edu.jccc.edum.jccc.edua.jccc.edui.jccc.edul.jccc.edu
+[npawarve@ats-cis ~]$ 

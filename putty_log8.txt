@@ -1,0 +1,101 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.11.08 11:47:34 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+You have mail.
+Last login: Tue Nov  8 11:37:52 2016 from 99-121-106-151.lightspeed.mssnks.sbcglobal.net
+[npawarve@ats-cis ~]$ bin/req 8 9
+
+-----------------
+Tue Nov  8 11:49:33 CST 2016
+/home/students/npawarve
+R08_009_790047
+-----------------
+
+[npawarve@ats-cis ~]$ Lab8/p8_s1.csh
+Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 1
+Clocked In
+Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 2
+Clocked Out
+Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 1
+Clocked In
+Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 2
+Clocked Out
+Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 6
+Invalid Input
+
+Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 3
+Printing Log
+2016-11-08 11:51:06
+npawarve
+CLOCK IN
+2016-11-08 11:51:09
+npawarve
+CLOCK OUT
+2016-11-08 11:51:09
+npawarve
+CLOCK IN
+2016-11-08 11:51:10
+npawarve
+CLOCK OUT
+2016-11-08 11:51:11
+npawarve
+(END)Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 4
+Enter a User ID: npawarve
+2016-11-08 11:51:06
+npawarve
+CLOCK IN
+--
+2016-11-08 11:51:09
+npawarve
+CLOCK IN
+(END)Select from the following menu: 
+1) Clock In
+2) Clock Out
+3) Print Log
+4) Print User
+5) Quit
+Option: 5
+[npawarve@ats-cis ~]$ exit
+logout

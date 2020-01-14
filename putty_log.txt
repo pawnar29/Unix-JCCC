@@ -1,0 +1,166 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.13 20:42:00 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Sep 13 20:41:20 2016 from narayana-portable.jccc.wifi
+[npawarve@ats-cis ~]$ [npawarve@ats-cis ~]$ /binbin/req 2 1
+
+-----------------
+Tue Sep 13 20:42:45 CDT 2016
+/home/students/npawarve
+R02_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/p*
+/home/faculty/clocke1/project_3/paper     /home/faculty/clocke1/project_3/pillows
+/home/faculty/clocke1/project_3/pegs      /home/faculty/clocke1/project_3/placemats
+/home/faculty/clocke1/project_3/pencils   /home/faculty/clocke1/project_3/plants
+/home/faculty/clocke1/project_3/pens      /home/faculty/clocke1/project_3/plates
+/home/faculty/clocke1/project_3/pictures
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/p*s
+/home/faculty/clocke1/project_3/saucepans  /home/faculty/clocke1/project_3/shoes
+/home/faculty/clocke1/project_3/scales     /home/faculty/clocke1/project_3/sponges
+/home/faculty/clocke1/project_3/sheets     /home/faculty/clocke1/project_3/spoons
+/home/faculty/clocke1/project_3/shelves
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/p???
+/home/faculty/clocke1/project_3/pegs  /home/faculty/clocke1/project_3/pens
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/[pb]*
+/home/faculty/clocke1/project_3/books   /home/faculty/clocke1/project_3/pencils
+/home/faculty/clocke1/project_3/bowl    /home/faculty/clocke1/project_3/pens
+/home/faculty/clocke1/project_3/boxes   /home/faculty/clocke1/project_3/pictures
+/home/faculty/clocke1/project_3/broom   /home/faculty/clocke1/project_3/pillows
+/home/faculty/clocke1/project_3/bucket  /home/faculty/clocke1/project_3/placemats
+/home/faculty/clocke1/project_3/paper   /home/faculty/clocke1/project_3/plants
+/home/faculty/clocke1/project_3/pegs    /home/faculty/clocke1/project_3/plates
+[npawarve@ats-cis ~]$ ls /home/faculty/clocke1/project_3/[pb]????
+/home/faculty/clocke1/project_3/books  /home/faculty/clocke1/project_3/broom
+/home/faculty/clocke1/project_3/boxes  /home/faculty/clocke1/project_3/paper
+[npawarve@ats-cis ~]wget http://www.gutenberg.org/ebooks/5.txt.utf-8 -O constitution.dos 
+
+--2016-09-16 10:02:40--  http://www.gutenberg.org/ebooks/5.txt.utf-8
+Resolving www.gutenberg.org (www.gutenberg.org)... 152.19.134.47, 2610:28:3090:3000:0:bad:cafe:47
+Connecting to www.gutenberg.org (www.gutenberg.org)|152.19.134.47|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.gutenberg.org/cache/epub/5/pg5.txt [following]
+--2016-09-16 10:02:40--  http://www.gutenberg.org/cache/epub/5/pg5.txt
+Reusing existing connection to www.gutenberg.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43608 (43K) [text/plain]
+Saving to: constitution.dos
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 43,608      --.-K/s   in 0.08s   
+
+[npawarve@ats-cis ~]$  tr -d '\015' <constitution.dos | awk '{if(NR==1)sub(/^\xef\\xbb\xbf/,"");print}' >constitution.txt 
+[npawarve@ats-cis ~]$ vim constitution.txt
+[npawarve@ats-cis ~]$ bin/req 2 2
+
+-----------------
+Fri Sep 16 10:09:37 CDT 2016
+/home/students/npawarve
+R02_002_790047
+-----------------
+
+[npawarve@ats-cis ~]$ head -n 5 constitution.txt ; tail -n 10 constitution.txt ;
+
+THE CONSTITUTION OF THE UNITED STATES OF AMERICA, 1787
+
+
+
+Abr Baldwin
+ 
+Attest:
+William Jackson, Secretary
+
+
+
+
+
+[npawarve@ats-cis ~]$ bin/req 2 3
+
+-----------------
+Fri Sep 16 10:10:22 CDT 2016
+/home/students/npawarve
+R02_003_790047
+-----------------
+
+[npawarve@ats-cis ~]$ head -n 40 constitution.txt | tail -n 10
+according to their respective Numbers, which shall be determined
+by adding to the whole number of free Persons, including those
+bound to Service for a Term of Years, and excluding Indians not taxed,
+three fifths of all other Persons.  The actual Enumeration shall be made
+within three Years after the first Meeting of the Congress of the
+United States, and within every subsequent Term of ten Years,
+in such Manner as they shall by law Direct.  The number of
+Representatives shall not exceed one for every thirty Thousand,
+but each State shall have at least one Representative;
+and until such enumeration shall be made, the State of New Hampshire
+[npawarve@ats-cis ~]$ bin/req 2 4
+
+-----------------
+Fri Sep 16 10:11:02 CDT 2016
+/home/students/npawarve
+R02_004_790047
+-----------------
+
+[npawarve@ats-cis ~]$ cat -b constitution.txt | head -n 40  | tail -n 10  
+
+    21according to their respective Numbers, which shall be determined
+    22by adding to the whole number of free Persons, including those
+    23bound to Service for a Term of Years, and excluding Indians not taxed,
+    24three fifths of all other Persons.  The actual Enumeration shall be made
+    25within three Years after the first Meeting of the Congress of the
+    26United States, and within every subsequent Term of ten Years,
+    27in such Manner as they shall by law Direct.  The number of
+    28Representatives shall not exceed one for every thirty Thousand,
+    29but each State shall have at least one Representative;
+    30and until such enumeration shall be made, the State of New Hampshire
+[npawarve@ats-cis ~]$ bin/req 2 5
+
+-----------------
+Fri Sep 16 10:13:50 CDT 2016
+/home/students/npawarve
+R02_005_790047
+-----------------
+
+[npawarve@ats-cis ~]$ who | tee file.txt 
+bpeek    pts/1        2016-09-16 08:42 (136.63.235.208)
+npawarve pts/2        2016-09-16 09:55 (99-121-106-151.lightspeed.mssnks.sbcglobal.net)
+[npawarve@ats-cis ~]$ cat file.txt 
+bpeek    pts/1        2016-09-16 08:42 (136.63.235.208)
+npawarve pts/2        2016-09-16 09:55 (99-121-106-151.lightspeed.mssnks.sbcglobal.net)
+[npawarve@ats-cis ~]$ bin/req 2 6
+
+-----------------
+Fri Sep 16 10:15:21 CDT 2016
+/home/students/npawarve
+R02_006_790047
+-----------------
+
+[npawarve@ats-cis ~]$ sleep 30&
+[1] 31393
+[npawarve@ats-cis ~]$ sleep 30&
+[2] 31394
+[npawarve@ats-cis ~]$ sleep 30&
+[3] 31395
+[npawarve@ats-cis ~]$ ps
+  PID TTY          TIME CMD
+30989 pts/2    00:00:00 bash
+31393 pts/2    00:00:00 sleep
+31394 pts/2    00:00:00 sleep
+31395 pts/2    00:00:00 sleep
+31397 pts/2    00:00:00 ps
+[npawarve@ats-cis ~]$ kill 31394
+[npawarve@ats-cis ~]$ ps
+[1]   Done                    sleep 30
+[2]-  Terminated              sleep 30
+[3]+  Done                    sleep 30
+[npawarve@ats-cis ~]$ wc << stop
+> Blue
+> car
+> Supercalifragilisticexpialidocious
+> 5 6 7
+> Spiderman
+> stop
+ 5  7 60
+[npawarve@ats-cis ~]$ exit
+logout

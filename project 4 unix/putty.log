@@ -1,0 +1,68 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.27 19:31:31 =~=~=~=~=~=~=~=~=~=~=~=
+login as: npawarve
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Tue Sep 27 16:56:53 2016 from 99-121-106-151.lightspeed.mssnks.sbcglobal.net
+[npawarve@ats-cis ~]$ [npawarve@ats-cis ~]$ ls Lab4
+constitution.txt
+[npawarve@ats-cis ~]$ cd LAab4
+[npawarve@ats-cis Lab4]$ ../bin/req 4 1
+
+-----------------
+Tue Sep 27 19:39:37 CDT 2016
+/home/students/npawarve/Lab4
+R04_001_790047
+-----------------
+
+[npawarve@ats-cis Lab4]$ sed -n '12, 16p;135,13 137p' constitution.txt 
+Article 1
+
+Section 1.  All legislative Powers herein granted shall be vested in a
+Congress of the United States, which shall consist of a Senate and
+House of Representatives.
+Section 7.  All Bills for raising Revenue shall originate in the
+House of Representatives; but the Senate may propose or concur with
+Amendments as on other Bills.
+[npawarve@ats-cis Lab4]$ ../bin/req 4 1
+
+-----------------
+Tue Sep 27 19:43:05 CDT 2016
+/home/students/npawarve/Lab4
+R04_002_790047
+-----------------
+
+[npawarve@ats-cis Lab4]$ sed -n 's/Election./\U&/p' constitution.txt 
+Authority thereof shall issue Writs of ELECTION to fill such Vacancies.
+Immediately after they shall be assembled in Consequence of the first ELECTION,
+Section 4.  The Times, Places and Manner of holding ELECTIONS for Senators and
+Section 5.  Each House shall be the Judge of the ELECTIONS,
+[npawarve@ats-cis Lab4]$  ../bin/req 4 3
+
+-----------------
+Tue Sep 27 20:10:47 CDT 2016
+/home/students/npawarve/Lab4
+R04_003_790047
+-----------------
+
+[npawarve@ats-cis Lab4]$ sed -n '/Massachusetts/p' constitution.txt 
+shall be entitled to chuse three, Massachusetts eight, Rhode Island
+Massachusetts
+[npawarve@ats-cis Lab4]$  ../bin/req 4 4
+
+-----------------
+Tue Sep 27 20:12:19 CDT 2016
+/home/students/npawarve/Lab4
+R04_004_790047
+-----------------
+
+[npawarve@ats-cis Lab4]$ sed -n -e '19{=;p}' -e '58{=;p}' -e '60{=;p}' constitution.txt
+
+chosen every second Year by the People of the several States,
+58
+second Year, of the second Class at the expiration of the fourth Year,
+60
+may be chosen every second Year; and if vacancies happen by Resignation,
+[npawarve@ats-cis Lab4]$ vim p4_s1.sed
+[npawarve@ats-cis Lab4]$ sed -f p4_s1.sed constitution.txt > con_mod.txt
+[npawarve@ats-cis Lab4]$ exit
+Logoff

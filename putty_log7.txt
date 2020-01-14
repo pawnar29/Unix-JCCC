@@ -1,0 +1,358 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.10.31 10:27:04 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Mon Oct 31 10:25:36 2016 from 99-121-106-151.lightspeed.mssnks.sbcglobal.net
+[npawarve@ats-cis ~]$ bin/req 7 1
+
+-----------------
+Mon Oct 31 10:27:39 CDT 2016
+/home/students/npawarve
+R07_001_790047
+-----------------
+
+[npawarve@ats-cis ~]$ tcsh
+csh command? $ set d = `date`; echo $d[]5]
+CDT
+csh command? $ set var = tree
+csh command? $ echo pear$var and apple$var
+peartree and appletree
+csh command? $ echo "$var"house
+treehouse
+csh command? $ vim .tcsh
+  ".tcsh" [New File]~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All:q!csh command? $ vim .tcshrc
+  ".tcshrc" [New File]~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All-- INSERT --0,1Alle1,21s2e3set45p6r7o8p9t109 87o8m9p10prompt12=34'5t6c7s8h9 20%1w2 3%4d5 6%7M8 9>30 10'11,30All".tcshrc"[New] 1L, 31C written
+csh command? $ source .t
+.tcshrc    .trashlog  
+csh command? $ source .tcshrc 
+tcsh Oct Mon ats-cis.jccc.edu >source .tcshrcvim
+  ".tcshrc" 1L, 31Cset prompt = 'tcsh %w %d %M >'
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               1,1All23456789101234567892012345678930-- INSERT --1,30All '11,30All".tcshrc"1L, 32C written
+tcsh Oct Mon ats-cis.jccc.edu >vim .tcshrcsource
+tcsh Oct Mon ats-cis.jccc.edu > printexitvalueset 
+tcsh Oct Mon ats-cis.jccc.edu > grep computer con
+constitution3_8.txt  constitution.dos     constitution.txt 
+tcsh Oct Mon ats-cis.jccc.edu > grep computer constitution.txt 
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > grep computer constitution.txtrep  person
+No person shall be a Senator who shall not have attained to the Age of
+No person held to Service or Labor in one State, under the Laws thereof,
+tcsh Oct Mon ats-cis.jccc.edu > bin/req 7 2
+
+-----------------
+Mon Oct 31 10:34:49 CDT 2016
+/home/students/npawarve
+R07_002_790047
+-----------------
+
+tcsh Oct Mon ats-cis.jccc.edu > history 10
+   10310:29echo pear$var and apple$var
+   10410:29echo "$var"house
+   10510:29vim .tcsh
+   10810:31vim .tcshrc
+   10910:31source .tcshrc
+   11010:33set printexitvalue
+   11110:34grep computer constitution.txt
+   11210:34grep person constitution.txt
+   11310:34bin/req 7 2
+   11410:35history 10
+tcsh Oct Mon ats-cis.jccc.edu > history 10 -r
+   10410:29echo "$var"house
+   10510:29vim .tcsh
+   10810:31vim .tcshrc
+   10910:31source .tcshrc
+   11010:33set printexitvalue
+   11110:34grep computer constitution.txt
+   11210:34grep person constitution.txt
+   11310:34bin/req 7 2
+   11410:35history 10
+   11510:36history 10 -r
+tcsh Oct Mon ats-cis.jccc.edu > history 10 -r -r-r-r-r -r-r 10
+   11610:37history -r 10
+   11510:36history 10 -r
+   11410:35history 10
+   11310:34bin/req 7 2
+   11210:34grep person constitution.txt
+   11110:34grep computer constitution.txt
+   11010:33set printexitvalue
+   10910:31source .tcshrc
+   10810:31vim .tcshrc
+   10510:29vim .tcsh
+tcsh Oct Mon ats-cis.jccc.edu > set history = 5
+tcsh Oct Mon ats-cis.jccc.edu > who
+npawarve pts/0        2016-10-31 10:25 (99-121-106-151.lightspeed.mssnks.sbcglobal.net)
+npawarve pts/1        2016-10-31 10:27 (99-121-106-151.lightspeed.mssnks.sbcglobal.net)
+tcsh Oct Mon ats-cis.jccc.edu > date
+Mon Oct 31 10:37:53 CDT 2016
+tcsh Oct Mon ats-cis.jccc.edu > sleep 10
+tcsh Oct Mon ats-cis.jccc.edu > ps
+  PID TTY          TIME CMD
+18979 pts/1    00:00:00 bash
+19034 pts/1    00:00:00 tcsh
+19343 pts/1    00:00:00 ps
+tcsh Oct Mon ats-cis.jccc.edu > echo ""H"e"l"l"o""
+Hello
+tcsh Oct Mon ats-cis.jccc.edu > echo ""W"o"r"l"d"
+World
+tcsh Oct Mon ats-cis.jccc.edu > history
+   12010:37sleep 10
+   12110:38ps
+   12210:38echo "Hello"
+   12310:38echo "World"
+   12410:38history
+tcsh Oct Mon ats-cis.jccc.edu > !121
+ps
+  PID TTY          TIME CMD
+18979 pts/1    00:00:00 bash
+19034 pts/1    00:00:00 tcsh
+19352 pts/1    00:00:00 ps
+tcsh Oct Mon ats-cis.jccc.edu > echo one two three
+one two three
+tcsh Oct Mon ats-cis.jccc.edu > !!
+echo one two three
+one two three
+tcsh Oct Mon ats-cis.jccc.edu > echo one two threepsecho one two three
+one two three
+tcsh Oct Mon ats-cis.jccc.edu > !!:2
+two
+two: Command not found.
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > twoecho one two three
+one two three
+tcsh Oct Mon ats-cis.jccc.edu > echo !!:2
+echo two
+two
+tcsh Oct Mon ats-cis.jccc.edu > echo twoone two three
+one two three
+tcsh Oct Mon ats-cis.jccc.edu > !! four
+echo one two three four
+one two three four
+tcsh Oct Mon ats-cis.jccc.edu > bin/req 7 3
+
+-----------------
+Mon Oct 31 10:45:06 CDT 2016
+/home/students/npawarve
+R07_003_790047
+-----------------
+
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd ''l'i'n'e' 'a'b'o'v'e' 't'h'e' 'c'o'm'm'a'n'd'
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd 'line above the command'
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd 'line above the command'cmd  =  
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd = 'line above the command'
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd = 'line above the command'jobcmd
+Faulty alias 'jobcmd' removed.
+=: Command not found.
+Exit 1
+=: Command not found.
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > jobcmdalias  = 'line above the command'
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd 'line above the command'
+Faulty alias 'jobcmd' removed.
+line: Command not found.
+Exit 1
+line: Command not found.
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > jobcmdalias  'line above the command'bcmd '--line above the command'-'-'
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd '--line above the command--'bcmd '"--line above the command--'"
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > alias
+egrepegrep --color=auto
+fgrepfgrep --color=auto
+grepgrep --color=auto
+jobcmd--line above the command--
+l.ls -d .* --color=auto
+llls -l --color=auto
+lsls --color=auto
+vivim
+tcsh Oct Mon ats-cis.jccc.edu > aliass jobcmd "--line above the command--"md "-echo 'echo --line above the command--"'
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd 'echo --line above the command--' jobcmd "--line above the command--"'--line above the command--'
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > jobcmd
+tcsh Oct Mon ats-cis.jccc.edu > jobcmdalias  'echo --line above the command--'d  = - '''' 
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd = 'echo --line above the command--' 
+Faulty alias 'jobcmd' removed.
+=: Command not found.
+Exit 1
+=: Command not found.
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > jobcmdalias  = 'echo --line above the command--' = 
+tcsh Oct Mon ats-cis.jccc.edu > alias jobcmd 'echo --line above the command--'-'u
+--line above the command-- ualias jobcmd
+ualias: Command not found.
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > ualias jobcmdn
+tcsh Oct Mon ats-cis.jccc.edu > unalias jobcmd 'echo --line above the command--'precmd
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > 
+--line above the command--
+tcsh Oct Mon ats-cis.jccc.edu > unalias precmd
+tcsh Oct Mon ats-cis.jccc.edu > 
+tcsh Oct Mon ats-cis.jccc.edu > bin/req 7 4
+
+-----------------
+Mon Oct 31 10:52:50 CDT 2016
+/home/students/npawarve
+R07_004_790047
+-----------------
+
+tcsh Oct Mon ats-cis.jccc.edu > sleep 60
+^Z
+Suspended
+tcsh Oct Mon ats-cis.jccc.edu > sleep 60
+^Z
+Suspended
+tcsh Oct Mon ats-cis.jccc.edu > sleep 60
+^Z
+Suspended
+tcsh Oct Mon ats-cis.jccc.edu > ps
+  PID TTY          TIME CMD
+18979 pts/1    00:00:00 bash
+19034 pts/1    00:00:00 tcsh
+19500 pts/1    00:00:00 sleep
+19501 pts/1    00:00:00 sleep
+19502 pts/1    00:00:00 sleep
+19503 pts/1    00:00:00 ps
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[1]    Suspended                     sleep 60
+[2]  - Suspended                     sleep 60
+[3]  + Suspended                     sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > bg 2
+[3]    sleep 60 &
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[1]  - Suspended                     sleep 60
+[2]  + Suspended                     sleep 60
+[3]    Done                          sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[1]  - Suspended                     sleep 60
+[2]  + Suspended                     sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > sleep 60
+^Z
+Suspended
+tcsh Oct Mon ats-cis.jccc.edu > sleep 60
+^Z
+Suspended
+tcsh Oct Mon ats-cis.jccc.edu > sleep 60
+^Z
+Suspended
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[1]    Suspended                     sleep 60
+[2]    Suspended                     sleep 60
+[3]    Suspended                     sleep 60
+[4]  - Suspended                     sleep 60
+[5]  + Suspended                     sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > stop 1
+1: Operation not permitted
+Exit 1
+tcsh Oct Mon ats-cis.jccc.edu > bg 1
+[5]    sleep 60 &
+tcsh Oct Mon ats-cis.jccc.edu > bg 12
+[4]    sleep 60 &
+tcsh Oct Mon ats-cis.jccc.edu > bg 231
+[3]    sleep 60 &
+tcsh Oct Mon ats-cis.jccc.edu > bg 13
+[2]    sleep 60 &
+tcsh Oct Mon ats-cis.jccc.edu > bg 34
+[1]    sleep 60 &
+[2]    Done                          sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > bg 45
+[5]    sleep 60 &
+[1]    Done                          sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[3]  - Running                       sleep 60
+[4]  + Running                       sleep 60
+[5]    Running                       sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[3]  - Running                       sleep 60
+[4]  + Running                       sleep 60
+[5]    Running                       sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > jobs
+[3]  - Running                       sleep 60
+[4]  + Running                       sleep 60
+[5]    Running                       sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > bin/req 7 5
+
+-----------------
+Mon Oct 31 11:03:21 CDT 2016
+/home/students/npawarve
+R07_005_790047
+-----------------
+
+[5]    Done                          sleep 60
+[4]  - Done                          sleep 60
+[3]  + Done                          sleep 60
+tcsh Oct Mon ats-cis.jccc.edu > bin/req 7 5
+
+-----------------
+Mon Oct 31 11:03:29 CDT 2016
+/home/students/npawarve
+R07_005_790047
+-----------------
+
+tcsh Oct Mon ats-cis.jccc.edu > set my_file = con
+constitution3_8.txt  constitution.dos     constitution.txt 
+tcsh Oct Mon ats-cis.jccc.edu > set my_file = constitution.txt 
+tcsh Oct Mon ats-cis.jccc.edu > grep person constitution.txt 
+No person shall be a Senator who shall not have attained to the Age of
+No person held to Service or Labor in one State, under the Laws thereof,
+tcsh Oct Mon ats-cis.jccc.edu > echo $complete
+complete: Undefined variable.
+tcsh Oct Mon ats-cis.jccc.edu > set complete = complete -smy_Ffile c/list:selects
+tcsh Oct Mon ats-cis.jccc.edu > complete my_file c/:secho $grep person constitution.txtmy_complete grep personsonon ''c'/'1'/'s'/'
+tcsh Oct Mon ats-cis.jccc.edu > grep comperson m
+Invalid separator: 'e'.
+tcsh Oct Mon ats-cis.jccc.edu > 
+bin/                 date.txt             p6_tmp/
+constitution3_8.txt  Lab1/                trash/
+constitution.dos     Lab4/                
+constitution.txt     Lab5/                
+tcsh Oct Mon ats-cis.jccc.edu > complete grep person 'c/1/s/'grep person my_
+Invalid separator: 'e'.
+tcsh Oct Mon ats-cis.jccc.edu > complete grep person 'c/1/s/'grep complete grep person 'c/1/s/'grep person $m
+Invalid separator: 'e'.
+tcsh Oct Mon ats-cis.jccc.edu > 
+bin/                 date.txt             p6_tmp/
+constitution3_8.txt  Lab1/                trash/
+constitution.dos     Lab4/                
+constitution.txt     Lab5/                
+tcsh Oct Mon ats-cis.jccc.edu > complete grep person 'c/1/s/'c/13
+tcsh Oct Mon ats-cis.jccc.edu > complete grep person 'c/3/s/' 'c/32
+tcsh Oct Mon ats-cis.jccc.edu > grep person my$my_file 
+bin/                 date.txt             p6_tmp/
+constitution3_8.txt  Lab1/                trash/
+constitution.dos     Lab4/                
+constitution.txt     Lab5/                
+tcsh Oct Mon ats-cis.jccc.edu > grep person $my_file 
+No person shall be a Senator who shall not have attained to the Age of
+No person held to Service or Labor in one State, under the Laws thereof,
+tcsh Oct Mon ats-cis.jccc.edu > complete
+grep'c/2/s/'
+my_file'c/:s'
+tcsh Oct Mon ats-cis.jccc.edu > completegrep person $my_filecomplete 'c/2/s/'person 'c/3/s/'1/s/'3/s/'1/s/'grep person constitution.tx
+grep: constitution.tx: No such file or directory
+Exit 2
+tcsh Oct Mon ats-cis.jccc.edu > grep person $my_file 
+No person shall be a Senator who shall not have attained to the Age of
+No person held to Service or Labor in one State, under the Laws thereof,
+tcsh Oct Mon ats-cis.jccc.edu > exit
+exit
+[npawarve@ats-cis ~]$ exit
+logout

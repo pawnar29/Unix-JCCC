@@ -1,0 +1,31 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.09.25 15:32:32 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "npawarve".
+npawarve@ats-cis.jccc.edu's password: 
+No mail.
+Last login: Sun Sep 25 13:54:48 2016 from 99-121-106-151.lightspeed.mssnks.sbcglobal.net
+[npawarve@ats-cis ~]$ grep '\<[PpTt].\{2,3\}son\>' constitution.txt
+No Person shall be a Representative who shall not have attained to the
+No person shall be a Senator who shall not have attained to the Age of
+shall preside: And no Person shall be convicted without the Concurrence
+of the United States.  They shall in all Cases, except Treason, Felony and
+increased during such time; and no Person holding any Office under the
+not exceeding ten dollars for each Person.
+and no Person holding any Office of Profit or Trust under them, shall,
+Representative, or Person holding an Office of Trust or Profit under
+The Person having the greatest Number of Votes shall be the President,
+chuse by Ballot one of them for President; and if no Person have
+of the President, the Person having the greatest Number of Votes of
+No Person except a natural born Citizen, or a Citizen of the United States,
+the Office of President; neither shall any Person be eligible to that
+and Conviction of, Treason, Bribery, or other high Crimes and Misdemeanors.
+Section 3.  Treason against the United States, shall consist only in
+Aid and Comfort.  No Person shall be convicted of Treason unless on
+The Congress shall have power to declare the punishment of Treason,
+But no Attainder of Treason shall work Corruption of Blood,
+or Forfeiture except during the Life of the Person attainted.
+A Person charged in any State with Treason, Felony, or other Crime,
+No person held to Service or Labor in one State, under the Laws thereof,
+[npawarve@ats-cis ~]$ grep '^B.*,$' constitution3_8.txt 
+[npawarve@ats-cis ~]$
+[npawarve@ats-cis ~]$ exit
+logout
